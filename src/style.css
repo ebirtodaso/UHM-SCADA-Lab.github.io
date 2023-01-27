@@ -1,0 +1,30 @@
+/* Use Open Sans as the default sans serif font. */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700|Source+Code+Pro:300,400,500,700");
+
+/* Set up some CSS variables to theme the application. */
+:root {
+  --dark-green: #024731;
+  --dark-green-rgb: 2, 71, 49;
+}
+
+body {
+  --bs-light-rgb: var(--dark-green-rgb);
+}
+
+.bg-light a {
+  color: white;
+}
+
+Table a, Table a:hover {
+  color: black;
+  text-decoration-line: none;
+}
+
+h1 {
+  color: var(--dark-green);
+}
+
+.dropdown-menu {
+  border-radius: 0;
+  text-align: center;
+}
