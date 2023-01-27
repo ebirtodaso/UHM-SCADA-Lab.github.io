@@ -1,5 +1,6 @@
 import React from 'react';
-import { Container, Nav, Navbar, NavDropdown, NavLink } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
+import { Container, Nav, Navbar, NavDropdown} from 'react-bootstrap';
 
 const NavBar = () => (
   <Navbar bg="light" expand="lg">
@@ -15,7 +16,7 @@ const NavBar = () => (
             <NavDropdown.Item as={NavLink} to="/">Inventory Sheet</NavDropdown.Item>
             <NavDropdown.Item as={NavLink} to="/">To-Do List</NavDropdown.Item>
           </NavDropdown>
-          <Nav.Link as={NavLink} to="/">Team</Nav.Link>
+          <Nav.Link as={NavLink} to="/team">Team</Nav.Link>
           <NavDropdown align="end" title="Equipment">
             <NavDropdown.Item as={NavLink} to="/">Equipment List</NavDropdown.Item>
             <NavDropdown.Item as={NavLink} to="/">Configuration</NavDropdown.Item>

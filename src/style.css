@@ -11,7 +11,7 @@ body {
   --bs-light-rgb: var(--dark-green-rgb);
 }
 
-.bg-light a {
+.bg-light a, .bg-light a.nav-link.active{
   color: white;
 }
 
@@ -27,4 +27,9 @@ h1 {
 .dropdown-menu {
   border-radius: 0;
   text-align: center;
+}
+
+.dropdown-item.active {
+  color: rgba(0,0,0,0.9);
+  background-color: transparent;
 }
