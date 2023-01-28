@@ -1,10 +1,9 @@
-import React from 'react';
 import { Container } from 'react-bootstrap';
 
-const SNMPNOC = () => (
+const SNMP_NOC = () => (
   <Container className="py-3">
     <h1>SNMP/NOC</h1>
   </Container>
 );
 
-export default SNMPNOC;
+export default SNMP_NOC;

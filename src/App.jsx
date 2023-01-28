@@ -1,4 +1,3 @@
-import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
@@ -12,24 +11,22 @@ import Departments from './departments/Departments';
 import Network from './departments/Network';
 import SystemAdmin from './departments/SystemAdmin';
 import KnowledgeManagement from './departments/KnowledgeManagement';
-import SNMPNOC from './departments/SNMPNOC';
-import SFlowSDN from './departments/SFlowSDN';
+import SNMP_NOC from './departments/SNMP_NOC';
+import SFlow_SDN from './departments/SFlow_SDN';
 import MLCurriculum from './departments/MLCurriculum';
 import HCI from './departments/HCI';
 import Database from './departments/Database';
 import LogStash from './departments/LogStash';
-import RedTeamSEL from './departments/RedTeamSEL';
+import RedTeam_SEL from './departments/RedTeam_SEL';
 import Legacy from './legacy/Legacy';
 import LinuxSystem from './legacy/LinuxSystem/LinuxSystem';
-import PiAPI from './legacy/LinuxSystem/PiAPI';
-import LaunchingCommands from './legacy/LinuxSystem/LaunchingCommands';
 import RF from './legacy/RF';
 import PanicButton from './legacy/PanicButton';
 
 const App = () => (
   <Router>
     <div className="d-flex flex-column min-vh-100">
-      <NavBar />
+      <NavBar/>
       <Routes>
         <Route path="*" element={<NotFound />} />
         <Route path="/" element={<Home />} />
@@ -43,23 +40,21 @@ const App = () => (
         <Route path="/network" element={<Network />} />
         <Route path="/systemAdmin" element={<SystemAdmin />} />
         <Route path="/knowledgeManagement" element={<KnowledgeManagement />} />
-        <Route path="/snmp-noc" element={<SNMPNOC />} />
-        <Route path="/sFlow-SDN" element={<SFlowSDN />} />
+        <Route path="/snmp-noc" element={<SNMP_NOC />} />
+        <Route path="/sFlow-SDN" element={<SFlow_SDN />} />
         <Route path="/mlCurriculum" element={<MLCurriculum />} />
         <Route path="/hci" element={<HCI />} />
         <Route path="/database" element={<Database />} />
-        <Route path="/redTeam-SEL" element={<RedTeamSEL />} />
+        <Route path="/redTeam-SEL" element={<RedTeam_SEL />} />
         <Route path="/logStash" element={<LogStash />} />
 
         {/* Legacy Pages */}
         <Route path="/legacy" element={<Legacy />} />
         <Route path="/linux" element={<LinuxSystem />} />
-        <Route path="/piAPI" element={<PiAPI />} />
-        <Route path="/launchingCommands" element={<LaunchingCommands />} />
         <Route path="/rf" element={<RF />} />
         <Route path="/panicButton" element={<PanicButton />} />
       </Routes>
-      <Footer />
+      <Footer/>
     </div>
   </Router>
 );

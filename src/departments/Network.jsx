@@ -1,4 +1,3 @@
-import React from 'react';
 import { Col, Container, Row, Table } from 'react-bootstrap';
 
 const Network = () => (
@@ -9,28 +8,28 @@ const Network = () => (
         <h3>Relevant Devices</h3>
         <Table striped bordered>
           <thead style={{ fontSize: '18px' }}>
-            <tr>
-              <th>Device</th>
-              <th>Description</th>
-            </tr>
+          <tr>
+            <th>Device</th>
+            <th>Description</th>
+          </tr>
           </thead>
           <tbody style={{ fontSize: '14px' }}>
-            <tr>
-              <th><a href="/">DX-E402</a></th>
-              <td>Dynex router used as the UH Uplink.</td>
-            </tr>
-            <tr>
-              <th><a href="/">WL-WN530H4</a></th>
-              <td>Wavlink router used to wirelessly connect devices to the internet and SCADA network.</td>
-            </tr>
-            <tr>
-              <th><a href="/">HP 2920-24G</a></th>
-              <td>A 24-port network switch.</td>
-            </tr>
-            <tr>
-              <th><a href="/">HP 2520G-8-PoE</a></th>
-              <td>A 10-port network switch.</td>
-            </tr>
+          <tr>
+            <th><a href="/">DX-E402</a></th>
+            <td>Dynex router used as the UH Uplink.</td>
+          </tr>
+          <tr>
+            <th><a href="/">WL-WN530H4</a></th>
+            <td>Wavlink router used to wirelessly connect devices to the internet and SCADA network.</td>
+          </tr>
+          <tr>
+            <th><a href="/">HP 2920-24G</a></th>
+            <td>A 24-port network switch.</td>
+          </tr>
+          <tr>
+            <th><a href="/">HP 2520G-8-PoE</a></th>
+            <td>A 10-port network switch.</td>
+          </tr>
           </tbody>
         </Table>
       </Col>
