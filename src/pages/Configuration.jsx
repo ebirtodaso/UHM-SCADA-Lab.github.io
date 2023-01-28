@@ -1,3 +1,4 @@
+import React from 'react';
 import { Container, Table } from 'react-bootstrap';
 
 const Configuration = () => (
@@ -6,20 +7,20 @@ const Configuration = () => (
     <h3>Static IP Address List</h3>
     <Table striped style={{ width: '50%' }}>
       <thead>
-      <tr>
-        <th>Device Name</th>
-        <th>IP Address</th>
-      </tr>
+        <tr>
+          <th>Device Name</th>
+          <th>IP Address</th>
+        </tr>
       </thead>
       <tbody>
-      <tr>
-        <th>entraNET Access Point</th>
-        <td>192.168.1.200</td>
-      </tr>
-      <tr>
-        <th>SEL 451</th>
-        <td>192.9.0.2/16 (must confirm)</td>
-      </tr>
+        <tr>
+          <th>entraNET Access Point</th>
+          <td>192.168.1.200</td>
+        </tr>
+        <tr>
+          <th>SEL 451</th>
+          <td>192.9.0.2/16 (must confirm)</td>
+        </tr>
       </tbody>
     </Table>
     <h3>Equipment List</h3>

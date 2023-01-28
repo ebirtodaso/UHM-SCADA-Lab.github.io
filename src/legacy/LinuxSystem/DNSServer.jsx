@@ -1,3 +1,5 @@
+import React from 'react';
+
 const DNSServer = () => (
   <span>
     <ul>
@@ -17,15 +19,15 @@ const DNSServer = () => (
     <ol>
       <li>Add zone information to configuration file (Defining the zone)</li>
       <ul>
-        <img src="/images/DNSServer_zone_config.png" alt="Zone Config" style={{ width: '100%', maxWidth: '375px'}}/>
+        <img src="/images/DNSServer_zoneConfig.png" alt="Zone Config" style={{ width: '100%', maxWidth: '375px' }} />
       </ul>
-      <li>After saving the change, restart the service and run 'systemctl reload bind9'</li>
+      <li>After saving the change, restart the service and run &apos;systemctl reload bind9&apos;</li>
       <li>Create db.&lt;zone name&gt; file</li>
       <ul>
-        <img src="/images/DNSServer_zone_name.png" alt="Zone Name" style={{ width: '100%', maxWidth: '375px'}}/>
-      <p>note: The bottom of the file is the DNS records. The format of a record: hostname &lt;tab&gt; class &lt;tab&gt; DNS record type &lt;tab&gt; value</p>
+        <img src="/images/DNSServer_zoneName.png" alt="Zone Name" style={{ width: '100%', maxWidth: '375px' }} />
+        <p>note: The bottom of the file is the DNS records. The format of a record: hostname &lt;tab&gt; class &lt;tab&gt; DNS record type &lt;tab&gt; value</p>
       </ul>
-      <li>Restart the rndc and run 'sudo rndc reload'</li>
+      <li>Restart the rndc and run &apos;sudo rndc reload&apos;</li>
       <li>Check the DNS server is running properly</li>
       <li>
         <a href="https://serverspace.io/support/help/bind9-as-a-primary-dns-server-on-ubuntu/">Tutorial to Configure Bind9 as Primary Server</a>

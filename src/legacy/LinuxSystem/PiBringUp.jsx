@@ -1,3 +1,5 @@
+import React from 'react';
+
 const PiBringUp = () => (
   <span>
     <h3>Burning Raspberry Pi OS</h3>
@@ -37,7 +39,7 @@ const PiBringUp = () => (
     <h5>On GUI:</h5>
     <ol>
       <li>Insert flash drive(with sd inserted) to pi you want to copy from</li>
-      <li>Go to Settings -> Accessories -> SD Card Copier</li>
+      <li>Go to Settings -&gt; Accessories -&gt; SD Card Copier</li>
       <li>Copy from device to flash drive</li>
     </ol>
     <h5>On Console:</h5>
@@ -65,17 +67,17 @@ const PiBringUp = () => (
       </li>
     </ol>
     <h3>Pi Bring Up (From Scratch)</h3>
-    <p>Bringing up a Raspberry Pi when another isn't accessible</p>
+    <p>Bringing up a Raspberry Pi when another isn&apos;t accessible</p>
     <h5>On GUI:</h5>
     <ol>
       <li>Set hostname, turn off auto login, turn off screen blanking, turn on SSH access, and set timezone.</li>
       <ol>
-        <li>Go to Preferences -> Raspberry Pi Configuration</li>
-        <li>Under System select 'Change Hostname…' option</li>
-        <li>Under System turn off 'Auto Login' option</li>
-        <li>Under Display turn off 'Screen Blanking' option</li>
-        <li>Under Interfaces turn on 'SSH' option</li>
-        <li>Under Localization select 'Set Timezone…' option</li>
+        <li>Go to Preferences -&gt; Raspberry Pi Configuration</li>
+        <li>Under System select &apos;Change Hostname…&apos; option</li>
+        <li>Under System turn off &apos;Auto Login&apos; option</li>
+        <li>Under Display turn off &apos;Screen Blanking&apos; option</li>
+        <li>Under Interfaces turn on &apos;SSH&apos; option</li>
+        <li>Under Localization select &apos;Set Timezone…&apos; option</li>
       </ol>
       <li>Install commonly used programs. (using the terminal)</li>
       <ol>
@@ -90,14 +92,14 @@ const PiBringUp = () => (
       <li>Set hostname and set timezone</li>
       <ol>
         <li>$ sudo raspi-config</li>
-        <li>Go to System Options -> Hostname</li>
-        <li>Go to Localization Options -> Timezone -> US -> Hawaii</li>
+        <li>Go to System Options -&gt; Hostname</li>
+        <li>Go to Localization Options -&gt; Timezone -&gt; US -&gt; Hawaii</li>
         <li>Hit tab twice to select Finish</li>
       </ol>
       <li>Turn off screen blanking</li>
       <ol>
         <li>Check current time till blank (in seconds) using $ cat /sys/module/kernel/parameters/consoleblank</li>
-        <li>If it isn't 0, edit the follow: $ sudo vim /boot/cmdline.txt</li>
+        <li>If it isn&apos;t 0, edit the follow: $ sudo vim /boot/cmdline.txt</li>
         <li>Type in: consoleblank=0</li>
       </ol>
       <li>Turn on SSH access</li>
@@ -124,9 +126,9 @@ const PiBringUp = () => (
     <ul>
       <li>Sync time *NEED TO UPDATE*</li>
       <ul>
-        <li>sudo raspi-config , Localisation Options -> Timezone -> US -> Hawaii</li>
+        <li>sudo raspi-config , Localisation Options -&gt; Timezone -&gt; US -&gt; Hawaii</li>
         <li>sudo timedatectl set-ntp false , Control the system time and date, Controls whether network time synchronization is active and enabled. In this case we deactive and disable it</li>
-        <li>sudo date -s 'YYYY-MM-DD HH:MM:SS' , Set the date and time of pi</li>
+        <li>sudo date -s &apos;YYYY-MM-DD HH:MM:SS&apos; , Set the date and time of pi</li>
         <li>sudo timedatectl set-ntp true , Control the system time and date, Controls whether network time synchronization is active and enabled. In this case we active and enable it</li>
         <li>sudo timedatectl status, displays status</li>
       </ul>
