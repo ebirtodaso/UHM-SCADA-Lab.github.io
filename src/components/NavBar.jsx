@@ -21,16 +21,16 @@ const NavBar = () => (
             <NavDropdown.Item href="/configuration">Configuration</NavDropdown.Item>
           </NavDropdown>
           <NavDropdown align="end" title="Departments">
-            <NavDropdown.Item href="/">Network</NavDropdown.Item>
-            <NavDropdown.Item href="/">System Admin</NavDropdown.Item>
-            <NavDropdown.Item href="/">Knowledge Management</NavDropdown.Item>
-            <NavDropdown.Item href="/">SNMP/NOC</NavDropdown.Item>
-            <NavDropdown.Item href="/">sFlow/SDN</NavDropdown.Item>
-            <NavDropdown.Item href="/">ML Curriculum</NavDropdown.Item>
-            <NavDropdown.Item href="/">HCI</NavDropdown.Item>
-            <NavDropdown.Item href="/">Database</NavDropdown.Item>
-            <NavDropdown.Item href="/">Red Team/SEL</NavDropdown.Item>
-            <NavDropdown.Item href="/">Log Stash</NavDropdown.Item>
+            <NavDropdown.Item href="/network">Network</NavDropdown.Item>
+            <NavDropdown.Item href="/systemAdmin">System Admin</NavDropdown.Item>
+            <NavDropdown.Item href="/knowledgeManagement">Knowledge Management</NavDropdown.Item>
+            <NavDropdown.Item href="/snmp-noc">SNMP/NOC</NavDropdown.Item>
+            <NavDropdown.Item href="/sFlow-SDN">sFlow/SDN</NavDropdown.Item>
+            <NavDropdown.Item href="/mlCurriculum">ML Curriculum</NavDropdown.Item>
+            <NavDropdown.Item href="/hci">HCI</NavDropdown.Item>
+            <NavDropdown.Item href="/database">Database</NavDropdown.Item>
+            <NavDropdown.Item href="/redTeam-SEL">Red Team/SEL</NavDropdown.Item>
+            <NavDropdown.Item href="/logStash">Log Stash</NavDropdown.Item>
             <NavDropdown.Divider/>
             <NavDropdown.Item href="/departments">All Departments</NavDropdown.Item>
           </NavDropdown>
