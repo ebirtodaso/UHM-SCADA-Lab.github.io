@@ -1,39 +1,40 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { Container, Nav, Navbar, NavDropdown} from 'react-bootstrap';
 
 const NavBar = () => (
   <Navbar bg="light" expand="lg">
     <Container>
-      <Navbar.Brand as={NavLink} to="/">
+      <Navbar.Brand href="/">
         <img height="60px" src="./images/SCADA.png" alt="SCADA"/>
       </Navbar.Brand>
-      <Navbar.Toggle/>
-      <Navbar.Collapse className="justify-content-end">
+      <Navbar.Toggle aria-controls="basic-navbar-nav"/>
+      <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
         <Nav>
           <NavDropdown align="end" title="Getting Started">
-            <NavDropdown.Item as={NavLink} to="/">SCADA Discord</NavDropdown.Item>
-            <NavDropdown.Item as={NavLink} to="/">Inventory Sheet</NavDropdown.Item>
-            <NavDropdown.Item as={NavLink} to="/">To-Do List</NavDropdown.Item>
+            <NavDropdown.Item href="https://discord.gg/ptPvf9etBh" target="_blank">SCADA Discord</NavDropdown.Item>
+            <NavDropdown.Item href="/images/Inventory_Sheet.pdf" target="_blank" rel="noreferrer">Inventory Sheet</NavDropdown.Item>
+            <NavDropdown.Item href="/toDoList">To-Do List</NavDropdown.Item>
           </NavDropdown>
-          <Nav.Link as={NavLink} to="/team">Team</Nav.Link>
+          <Nav.Link as={Link} to="/team">Team</Nav.Link>
           <NavDropdown align="end" title="Equipment">
-            <NavDropdown.Item as={NavLink} to="/">Equipment List</NavDropdown.Item>
-            <NavDropdown.Item as={NavLink} to="/">Configuration</NavDropdown.Item>
+            <NavDropdown.Item href="/equipmentList">Equipment List</NavDropdown.Item>
+            <NavDropdown.Item href="/configuration">Configuration</NavDropdown.Item>
           </NavDropdown>
           <NavDropdown align="end" title="Departments">
-            <NavDropdown.Item as={NavLink} to="/">Network</NavDropdown.Item>
-            <NavDropdown.Item as={NavLink} to="/">System Admin</NavDropdown.Item>
-            <NavDropdown.Item as={NavLink} to="/">Knowledge Management</NavDropdown.Item>
-            <NavDropdown.Item as={NavLink} to="/">SNMP/NOC</NavDropdown.Item>
-            <NavDropdown.Item as={NavLink} to="/">sFlow & SDN</NavDropdown.Item>
-            <NavDropdown.Item as={NavLink} to="/">ML Curriculum</NavDropdown.Item>
-            <NavDropdown.Item as={NavLink} to="/">HCI</NavDropdown.Item>
-            <NavDropdown.Item as={NavLink} to="/">Database</NavDropdown.Item>
-            <NavDropdown.Item as={NavLink} to="/">Red Team/SEL</NavDropdown.Item>
-            <NavDropdown.Item as={NavLink} to="/">Log Stash</NavDropdown.Item>
+            <NavDropdown.Item href="/">Network</NavDropdown.Item>
+            <NavDropdown.Item href="/">System Admin</NavDropdown.Item>
+            <NavDropdown.Item href="/">Knowledge Management</NavDropdown.Item>
+            <NavDropdown.Item href="/">SNMP/NOC</NavDropdown.Item>
+            <NavDropdown.Item href="/">sFlow & SDN</NavDropdown.Item>
+            <NavDropdown.Item href="/">ML Curriculum</NavDropdown.Item>
+            <NavDropdown.Item href="/">HCI</NavDropdown.Item>
+            <NavDropdown.Item href="/">Database</NavDropdown.Item>
+            <NavDropdown.Item href="/">Red Team/SEL</NavDropdown.Item>
+            <NavDropdown.Item href="/">Log Stash</NavDropdown.Item>
+            <NavDropdown.Divider/>
+            <NavDropdown.Item href="/departments">All Departments</NavDropdown.Item>
           </NavDropdown>
-          <Nav.Link as={NavLink} to="/">Legacy</Nav.Link>
+          <Nav.Link href="/legacy">Legacy</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Container>

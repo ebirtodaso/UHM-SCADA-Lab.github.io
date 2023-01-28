@@ -1,5 +1,5 @@
-import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
+import { Discord, Github, Linkedin } from 'react-bootstrap-icons';
 
 /* The Footer appears at the bottom of every page. Rendered by the App Layout component. */
 const Footer = () => (
@@ -21,9 +21,10 @@ const Footer = () => (
           (808) 956-8111
         </Col>
         <Col className="text-white">
-          SCADA Lab 2023
-          <br/>
-          <a href="https://github.com/UHM-SCADA-Lab/UHM-SCADA-Lab.github.io">Github</a>
+          SCADA Lab 2023 <hr/>
+          <a className="footer-link" href="https://github.com/UHM-SCADA-Lab/UHM-SCADA-Lab.github.io"><Github/></a>
+          <a className="footer-link" href="https://discord.gg/ptPvf9etBh"><Discord/></a>
+          <a className="footer-link" href="https://www.linkedin.com/"><Linkedin/></a>
         </Col>
       </Row>
     </Container>

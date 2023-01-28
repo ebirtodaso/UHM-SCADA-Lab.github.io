@@ -1,7 +1,4 @@
-/* Use Open Sans as the default sans serif font. */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700|Source+Code+Pro:300,400,500,700");
-
-/* Set up some CSS variables to theme the application. */
+/* CSS Variables */
 :root {
   --dark-green: #024731;
   --dark-green-rgb: 2, 71, 49;
@@ -11,11 +8,7 @@ body {
   --bs-light-rgb: var(--dark-green-rgb);
 }
 
-.bg-light a, .bg-light a.nav-link.active{
-  color: white;
-}
-
-Table a, Table a:hover {
+Table a{
   color: black;
   text-decoration-line: none;
 }
@@ -29,7 +22,27 @@ h1 {
   text-align: center;
 }
 
-.dropdown-item.active {
-  color: rgba(0,0,0,0.9);
-  background-color: transparent;
+a.nav-link {
+  color: white;
+}
+
+.footer-link {
+  color: white;
+  font-size: 20pt;
+  padding-right: 20px;
+}
+
+ul li a {
+  color: black;
+  text-decoration-line: none;
+}
+
+#departments img {
+  width: 375px;
+  height: 250px;
+}
+
+#departments .badge {
+  position: absolute;
+  transform: translate(-50%, -50%);
 }
