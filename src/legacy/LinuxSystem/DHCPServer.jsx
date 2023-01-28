@@ -1,3 +1,5 @@
+import React from 'react';
+
 const DHCPServer = () => (
   <span>
     <ul>
@@ -12,11 +14,11 @@ const DHCPServer = () => (
     <ol>
       <li>In file /etc/default/isc-dhcp-server add interface that DHCP Server should serve requests on</li>
       <ul>
-        <li>example: INTERFACES="eth0 eth 0.3"</li>
+        <li>example: INTERFACES=&quot;eth0 eth 0.3&quot;</li>
       </ul>
       <li>Configure DHCP Server in the file /etc/dhcp/dhcpd.conf</li>
       <ul>
-        <img src="/images/DHCPServer_dhcpd.png" alt="DHCP Server" style={{ width: '100%', maxWidth: '375px'}}/>
+        <img src="/images/DHCPServer_dhcpd.png" alt="DHCP Server" style={{ width: '100%', maxWidth: '375px' }} />
       </ul>
       <li>
         <a href="https://wiki.debian.org/DHCP_Server">Tutorial to Setup DHCP Server</a>
@@ -26,16 +28,16 @@ const DHCPServer = () => (
     <ul>
       <li>Prerequisites</li>
       <ul>
-        <li>Must know Host's hostname, MAC Address, and the desired IP Address</li>
+        <li>Must know Host&apos;s hostname, MAC Address, and the desired IP Address</li>
       </ul>
     </ul>
     <ol>
       <li>Add configuration in /etc/dhcp/dhcpd.conf (near the bottom)</li>
       <ul>
-        <img src="/images/DHCPServer_fixed_addressing.png" alt="Fixed Addressing" style={{ width: '100%', maxWidth: '375px'}}/>
+        <img src="/images/DHCPServer_fixedAddressing.png" alt="Fixed Addressing" style={{ width: '100%', maxWidth: '375px' }} />
       </ul>
     </ol>
   </span>
 );
 
-export default  DHCPServer;
+export default DHCPServer;

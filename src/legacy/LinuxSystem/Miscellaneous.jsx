@@ -1,3 +1,5 @@
+import React from 'react';
+
 const Miscellaneous = () => (
   <span>
     <h3>Configure NTP Server</h3>
@@ -28,10 +30,10 @@ const Miscellaneous = () => (
         <a href="/pdfs/SEL3505Manual.pdf" target="_blank" rel="noreferrer">RTA SEL-3505 Manual</a>
       </li>
       <li>
-        <a href="pi-io-api.html">PI IO and RESTful API</a>
+        <a href="/piAPI">PI IO and RESTful API</a>
       </li>
       <li>
-        <a href="launching-commands.html">Launching Commands On Start</a>
+        <a href="/launchingCommands">Launching Commands On Start</a>
       </li>
       <li>
         <a href="https://www.raspberrypi.com/">Raspberry Pi Homepage</a>

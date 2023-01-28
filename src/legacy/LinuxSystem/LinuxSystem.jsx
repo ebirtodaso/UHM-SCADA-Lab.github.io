@@ -1,3 +1,4 @@
+import React from 'react';
 import { Container, Tab, Tabs } from 'react-bootstrap';
 import HomeTab from './HomeTab';
 import InventoryTab from './InventoryTab';
@@ -12,25 +13,25 @@ const LinuxSystem = () => (
     <h1>Linux System</h1>
     <Tabs defaultActiveKey="home">
       <Tab eventKey="home" title="Home" className="py-4">
-        <HomeTab/>
+        <HomeTab />
       </Tab>
       <Tab eventKey="inventory" title="Raspberry Pi Inventory" className="py-4">
-        <InventoryTab/>
+        <InventoryTab />
       </Tab>
       <Tab eventKey="bringUp" title="Pi Bring Up" className="py-4">
-        <PiBringUp/>
+        <PiBringUp />
       </Tab>
       <Tab eventKey="multiHoming" title="MultiHoming" className="py-4">
-        <MultiHomingTab/>
+        <MultiHomingTab />
       </Tab>
       <Tab eventKey="DHCPServer" title="DHCP Server" className="py-4">
-        <DHCPServer/>
+        <DHCPServer />
       </Tab>
       <Tab eventKey="DNSServer" title="DNS Server" className="py-4">
-        <DNSServer/>
+        <DNSServer />
       </Tab>
       <Tab eventKey="Miscellaneous" title="Miscellaneous" className="py-4">
-        <Miscellaneous/>
+        <Miscellaneous />
       </Tab>
     </Tabs>
   </Container>

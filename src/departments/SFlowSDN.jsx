@@ -1,9 +1,10 @@
+import React from 'react';
 import { Container } from 'react-bootstrap';
 
-const SFlow_SDN = () => (
+const SFlowSDN = () => (
   <Container className="py-3">
     <h1>sFlow/SDN</h1>
   </Container>
 );
 
-export default SFlow_SDN;
+export default SFlowSDN;

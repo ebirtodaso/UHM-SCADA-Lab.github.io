@@ -1,13 +1,13 @@
-import { Link } from 'react-router-dom';
-import { Container, Nav, Navbar, NavDropdown} from 'react-bootstrap';
+import React from 'react';
+import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 
 const NavBar = () => (
   <Navbar bg="light" expand="lg">
     <Container>
       <Navbar.Brand href="/">
-        <img height="60px" src="/images/SCADA.png" alt="SCADA"/>
+        <img height="60px" src="/images/SCADA.png" alt="SCADA" />
       </Navbar.Brand>
-      <Navbar.Toggle aria-controls="basic-navbar-nav"/>
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
         <Nav>
           <NavDropdown align="end" title="Getting Started">
@@ -31,7 +31,7 @@ const NavBar = () => (
             <NavDropdown.Item href="/database">Database</NavDropdown.Item>
             <NavDropdown.Item href="/redTeam-SEL">Red Team/SEL</NavDropdown.Item>
             <NavDropdown.Item href="/logStash">Log Stash</NavDropdown.Item>
-            <NavDropdown.Divider/>
+            <NavDropdown.Divider />
             <NavDropdown.Item href="/departments">All Departments</NavDropdown.Item>
           </NavDropdown>
           <Nav.Link href="/legacy">Legacy</Nav.Link>
@@ -40,6 +40,5 @@ const NavBar = () => (
     </Container>
   </Navbar>
 );
-
 
 export default NavBar;

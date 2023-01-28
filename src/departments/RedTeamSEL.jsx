@@ -1,9 +1,10 @@
+import React from 'react';
 import { Container } from 'react-bootstrap';
 
-const RedTeam_SEL = () => (
+const RedTeamSEL = () => (
   <Container className="py-3">
     <h1>Red Team/SEL</h1>
   </Container>
 );
 
-export default RedTeam_SEL;
+export default RedTeamSEL;

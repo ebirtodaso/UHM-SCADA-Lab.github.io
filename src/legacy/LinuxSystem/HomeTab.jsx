@@ -1,3 +1,4 @@
+import React from 'react';
 import { Col, Row } from 'react-bootstrap';
 
 const HomeTab = () => (
@@ -7,7 +8,7 @@ const HomeTab = () => (
         <h3>Useful and Important Information</h3>
         <ul>
           <li>IP addresses ending in 100-199 are assigned by the router(DHCP)</li>
-          <li>VLAN's and their IP addresses</li>
+          <li>VLAN&apos;s and their IP addresses</li>
           <ul>
             <li>VLAN 1 = 10.1.1.x</li>
             <li>VLAN 2 = 10.1.88.x</li>
@@ -33,8 +34,8 @@ const HomeTab = () => (
             <ul>
               <li>This is what was being worked on at the end of last semester, subject to change</li>
               <li>VLAN 1 is from the WiFi Router</li>
-              <li>VLAN 2 is from the 'Servers' pi (not fully sure)</li>
-              <li>VLAN 3 is from the 'QTpi-4' pi (from SCADA_Switch Ports/IPs/VLANs spreadsheet, I believe it was talking to 'Servers' pi aswell)</li>
+              <li>VLAN 2 is from the &apos;Servers&apos; pi (not fully sure)</li>
+              <li>VLAN 3 is from the &apos;QTpi-4&apos; pi (from SCADA_Switch Ports/IPs/VLANs spreadsheet, I believe it was talking to &apos;Servers&apos; pi aswell)</li>
             </ul>
           </ul>
         </ul>
@@ -54,7 +55,7 @@ const HomeTab = () => (
       <ul>
         <li>$ vimtutor: program that teaches the basics of how to use Vim.</li>
       </ul>
-      <li>$ function > textfile.txt stores function's console output to a textfile textfile.txt</li>
+      <li>$ function &gt; textfile.txt stores function&apos;s console output to a textfile textfile.txt</li>
       <li>
         <a href="https://www.raspberrypi.com/">Raspberry Pi Homepage</a>
       </li>
