@@ -270,13 +270,13 @@ const EquipmentList = () => (
       </tbody>
     </Table>
     <ul>
-      <h2>Local (Holmes 450)</h2>
+      <h3>Local (Holmes 450)</h3>
       <li>entraNET Access Point</li>
       <li>MeanWell PS</li>
       <li>Raspberry PIs</li>
     </ul>
     <ul>
-      <h2>Remote (ITC Datacenter)</h2>
+      <h3>Remote (ITC Datacenter)</h3>
       <li>entraNET Serial Remote</li>
       <li>NovaTech OrionLXm</li>
       <li>SEL 3505</li>

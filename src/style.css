@@ -10,7 +10,6 @@ body {
 
 Table a{
   color: black;
-  text-decoration-line: none;
 }
 
 h1 {
@@ -32,17 +31,25 @@ a.nav-link {
   padding-right: 20px;
 }
 
-ul li a {
+ul li a, ol li a {
   color: black;
-  text-decoration-line: none;
 }
 
-#departments img {
+#departments img, #legacy img {
   width: 375px;
   height: 250px;
 }
 
-#departments .badge {
+#departments .badge, #legacy .badge{
   position: absolute;
   transform: translate(-50%, -50%);
+}
+
+#LinuxSystem button {
+  color: var(--dark-green);
+}
+
+#LinuxSystem button.active {
+  background-color: var(--dark-green);
+  color: white;
 }

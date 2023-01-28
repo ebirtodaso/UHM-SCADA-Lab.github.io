@@ -3,7 +3,7 @@ import { Container, Table } from 'react-bootstrap';
 const Configuration = () => (
   <Container className="py-3">
     <h1>Configurations</h1>
-    <h2>Static IP Address List</h2>
+    <h3>Static IP Address List</h3>
     <Table striped style={{ width: '50%' }}>
       <thead>
       <tr>
@@ -22,16 +22,16 @@ const Configuration = () => (
       </tr>
       </tbody>
     </Table>
-    <h2>Equipment List</h2>
+    <h3>Equipment List</h3>
     <p>Please click the links below for the configuration of each device.</p>
     <ul>
-      <h2>Local (Holmes 450)</h2>
+      <h3>Local (Holmes 450)</h3>
       <li><a href="/">entraNET Access Point</a></li>
       <li><a href="/">MeanWell PS</a></li>
       <li><a href="/">Raspberry PIs</a></li>
     </ul>
     <ul>
-      <h2>Remote (ITC Datacenter)</h2>
+      <h3>Remote (ITC Datacenter)</h3>
       <li><a href="/">entraNET Serial Remote</a></li>
       <li><a href="/">NovaTech OrionLXm</a></li>
       <li><a href="/">SEL 3505</a></li>

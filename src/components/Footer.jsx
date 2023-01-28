@@ -8,10 +8,10 @@ const Footer = () => (
       <Row>
         <Col>
           <a className="pe-3" href="https://manoa.hawaii.edu/">
-            <img src="./images/UHM_Seal.png" width="100px" alt="UHM Seal"></img>
+            <img src="/images/UHM_Seal.png" width="100px" alt="UHM Seal"></img>
           </a>
           <a href="https://ee.hawaii.edu/home/">
-            <img src="./images/COE_Seal.svg" width="100px" alt="COE Seal"></img>
+            <img src="/images/COE_Seal.svg" width="100px" alt="COE Seal"></img>
           </a>
         </Col>
         <Col className="text-white">

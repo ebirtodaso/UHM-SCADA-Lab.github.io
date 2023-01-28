@@ -8,7 +8,10 @@ import ToDoList from './pages/ToDoList';
 import EquipmentList from './pages/EquipmentList';
 import Configuration from './pages/Configuration';
 import Departments from './departments/Departments';
-import Legacy from './pages/Legacy';
+import Legacy from './legacy/Legacy';
+import PanicButton from './legacy/PanicButton';
+import RF from './legacy/RF';
+import LinuxSystem from './legacy/LinuxSystem/LinuxSystem';
 
 const App = () => (
   <Router>
@@ -20,11 +23,16 @@ const App = () => (
         <Route path="/toDoList" element={<ToDoList />} />
         <Route path="/equipmentList" element={<EquipmentList />} />
         <Route path="/configuration" element={<Configuration />} />
-        <Route path="/legacy" element={<Legacy />} />
         <Route path="*" element={<NotFound />} />
 
         {/* Department Pages */}
         <Route path="/departments" element={<Departments />} />
+
+        {/* Legacy Pages */}
+        <Route path="/legacy" element={<Legacy />} />
+        <Route path="/linux" element={<LinuxSystem />} />
+        <Route path="/rf" element={<RF />} />
+        <Route path="/panicButton" element={<PanicButton />} />
       </Routes>
       <Footer/>
     </div>
