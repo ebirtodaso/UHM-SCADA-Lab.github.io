@@ -14,7 +14,7 @@ const PiAPI = () => (
         <a href="/pdfs/PiAPI_exampleGPIO.pdf">Example wiring (modified from video tutorial)</a>
       </li>
       <li>
-        <a href="/images/PiAPI_gpioTesting.py">Example python program</a>
+        <a href="/PiAPI_gpioTesting.py">Example python program</a>
       </li>
     </ul>
     <h3>Light Sensor</h3>

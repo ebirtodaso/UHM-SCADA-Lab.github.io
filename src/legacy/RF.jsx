@@ -7,7 +7,7 @@ const RF = () => (
     <h3>
       Legacy Equipment:
       {' '}
-      <a href="/pdfs/MDSentraNET900Manual.pdf" target="_blank" rel="noreferrer">MDS entraNET 900</a>
+      <a href="/pdfs/MDSentraNET900-Manual.pdf" target="_blank" rel="noreferrer">MDS entraNET 900</a>
     </h3>
     <img src="/images/MDSentraNET900.png" alt="MDS entraNET 900" style={{ width: '100%', maxWidth: '500px' }} />
     <p>

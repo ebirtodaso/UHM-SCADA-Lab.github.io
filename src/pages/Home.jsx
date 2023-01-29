@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Container, Row, Table } from 'react-bootstrap';
+import { Carousel, Col, Container, Row, Table } from 'react-bootstrap';
 
 const Home = () => (
   <Container className="py-3">
@@ -7,6 +7,24 @@ const Home = () => (
     <p>
       We are going to stand up a small, remote SCADA system. Students will familiarize themselves with the equipment, design & build the lab, then analyze and identify critical cyber terrain. Based on this analysis, students will deploy sensors on the remote network to flow data to a signature-based IDS (Intrusion Detection System). As a class, we will then use AI/ML techniques to automatically create both permissive and restrictive signatures on the remote SCADA network. A second goal of this lab is to explore tools, techniques and procedures for administering legacy SCADA equipment using Zero-Trust processes.
     </p>
+    <Row className="justify-content-center">
+      <Col lg={7}>
+        <Carousel id="ImageCarousel">
+          <Carousel.Item>
+            <img src="/images/Carousel_1.jpeg" alt="Carousel 1" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img src="/images/Carousel_2.jpeg" alt="Carousel 2" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img src="/images/Carousel_3.jpeg" alt="Carousel 3" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img src="/images/Carousel_4.jpeg" alt="Carousel 4" />
+          </Carousel.Item>
+        </Carousel>
+      </Col>
+    </Row>
     <h1 className="text-center">About the SCADA Lab</h1>
     <p className="text-center">Lorem ipsum dolor loco.
     </p>

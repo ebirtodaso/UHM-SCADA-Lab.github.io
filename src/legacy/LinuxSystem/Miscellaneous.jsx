@@ -27,7 +27,7 @@ const Miscellaneous = () => (
     <h3>Useful Links</h3>
     <ul>
       <li>
-        <a href="/pdfs/SEL3505Manual.pdf" target="_blank" rel="noreferrer">RTA SEL-3505 Manual</a>
+        <a href="/pdfs/SEL3505-Manual.pdf" target="_blank" rel="noreferrer">RTA SEL-3505 Manual</a>
       </li>
       <li>
         <a href="/piAPI">PI IO and RESTful API</a>

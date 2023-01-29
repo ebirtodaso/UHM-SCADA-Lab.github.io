@@ -11,8 +11,8 @@ const NavBar = () => (
       <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
         <Nav>
           <NavDropdown align="end" title="Getting Started">
-            <NavDropdown.Item href="https://discord.gg/ptPvf9etBh" target="_blank">SCADA Discord</NavDropdown.Item>
-            <NavDropdown.Item href="/pdfs/Inventory_Sheet.pdf" target="_blank" rel="noreferrer">Inventory Sheet</NavDropdown.Item>
+            <NavDropdown.Item href="https://discord.gg/ptPvf9etBh" target="_blank" rel="noreferrer">SCADA Discord</NavDropdown.Item>
+            <NavDropdown.Item href="/pdfs/Inventory-Sheet.pdf" target="_blank" rel="noreferrer">Inventory Sheet</NavDropdown.Item>
             <NavDropdown.Item href="/toDoList">To-Do List</NavDropdown.Item>
           </NavDropdown>
           <Nav.Link href="/team">Team</Nav.Link>

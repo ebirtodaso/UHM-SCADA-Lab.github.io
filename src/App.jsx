@@ -9,7 +9,7 @@ import ToDoList from './pages/ToDoList';
 import EquipmentList from './pages/EquipmentList';
 import Configuration from './pages/Configuration';
 import Departments from './departments/Departments';
-import Network from './departments/Network';
+import Network from './departments/Network/Network';
 import SystemAdmin from './departments/SystemAdmin';
 import KnowledgeManagement from './departments/KnowledgeManagement';
 import SNMPNOC from './departments/SNMPNOC';

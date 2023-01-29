@@ -53,3 +53,8 @@ ul li a, ol li a {
   background-color: var(--dark-green);
   color: white;
 }
+
+#ImageCarousel img {
+  width: 100%;
+  overflow: hidden;
+}

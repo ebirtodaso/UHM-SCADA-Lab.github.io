@@ -33,6 +33,7 @@ module.exports = {
     'import/prefer-default-export': 'off',
     'import/no-extraneous-dependencies': 'off',
     indent: ['error', 2],
+    'jsx-a11y/anchor-is-valid': 'off',
     'jsx-a11y/control-has-associated-label': 'off',
     'linebreak-style': 'off',
     'max-len': 'off',
