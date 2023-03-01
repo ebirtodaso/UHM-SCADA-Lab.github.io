@@ -1,7 +1,7 @@
 import React from 'react';
 import { Col, Row } from 'react-bootstrap';
 
-const OverviewTab = () => (
+const Overview = () => (
   <span>
     <Row>
       <Col>
@@ -77,4 +77,4 @@ const OverviewTab = () => (
   </span>
 );
 
-export default OverviewTab;
+export default Overview;

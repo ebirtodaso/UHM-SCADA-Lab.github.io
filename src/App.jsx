@@ -10,7 +10,7 @@ import EquipmentList from './pages/EquipmentList';
 import Configuration from './pages/Configuration';
 import Departments from './departments/Departments';
 import Network from './departments/Network';
-import SystemAdmin from './departments/SystemAdmin';
+import SystemAdmin from './departments/SystemAdmin/SystemAdmin';
 import KnowledgeManagement from './departments/KnowledgeManagement';
 import SNMPNOC from './departments/SNMPNOC';
 import SFlowSDN from './departments/SFlowSDN';
@@ -20,9 +20,8 @@ import Database from './departments/Database';
 import LogStash from './departments/LogStash';
 import RedTeamSEL from './departments/RedTeamSEL/RedTeamSEL';
 import Legacy from './legacy/Legacy';
-import LinuxSystem from './legacy/LinuxSystem/LinuxSystem';
-import PiAPI from './legacy/LinuxSystem/PiAPI';
-import LaunchingCommands from './legacy/LinuxSystem/LaunchingCommands';
+import PiAPI from './departments/SystemAdmin/PiAPI';
+import LaunchingCommands from './departments/SystemAdmin/LaunchingCommands';
 import RF from './legacy/RF';
 import PanicButton from './legacy/PanicButton';
 import Tasking from './pages/Tasking';
@@ -55,7 +54,6 @@ const App = () => (
 
         {/* Legacy Pages */}
         <Route path="/legacy" element={<Legacy />} />
-        <Route path="/linux" element={<LinuxSystem />} />
         <Route path="/piAPI" element={<PiAPI />} />
         <Route path="/launchingCommands" element={<LaunchingCommands />} />
         <Route path="/rf" element={<RF />} />

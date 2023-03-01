@@ -45,11 +45,11 @@ ul li a, ol li a {
   transform: translate(-50%, -50%);
 }
 
-#LinuxSystem button {
+#SystemAdmin button {
   color: var(--dark-green);
 }
 
-#LinuxSystem button.active {
+#SystemAdmin button.active {
   background-color: var(--dark-green);
   color: white;
 }

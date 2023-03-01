@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 
-const MultiHomingTab = () => (
+const MultiHoming = () => (
   <span>
     <Container>
       <ul>
@@ -31,4 +31,4 @@ const MultiHomingTab = () => (
   </span>
 );
 
-export default MultiHomingTab;
+export default MultiHoming;
