@@ -17,18 +17,18 @@ const Team = () => (
       <tbody>
         <tr>
           <th />
-          <td>Eliya<br />(R4)</td>
-          <td>Cam<br />(R4)</td>
-          <td>Bodie<br />(R4)</td>
-          <td>Justin<br />(R4)</td>
-          <td>Daniel<br />(R4)</td>
-          <td>Andee<br />(R4)</td>
-          <td>John<br />(R4)</td>
-          <td>Chase<br />(R4)</td>
-          <td>Arthur<br />(4)</td>
-          <td>Edward<br />(4)</td>
-          <td>Joshua<br />(3)</td>
-          <td>AJ<br />(3)</td>
+          <td width="7%">Eliya<br />(R4)</td>
+          <td width="7%">Cam<br />(R4)</td>
+          <td width="7%">Bodie<br />(R4)</td>
+          <td width="7%">Justin<br />(R4)</td>
+          <td width="7%">Daniel<br />(R4)</td>
+          <td width="7%">Andee<br />(R4)</td>
+          <td width="7%">John<br />(R4)</td>
+          <td width="7%">Chase<br />(R4)</td>
+          <td width="7%">Arthur<br />(4)</td>
+          <td width="7%">Edward<br />(4)</td>
+          <td width="7%">Joshua<br />(3)</td>
+          <td width="7%">AJ<br />(3)</td>
         </tr>
         <tr>
           <th>Network</th>
@@ -117,18 +117,18 @@ const Team = () => (
       <tbody>
         <tr>
           <th />
-          <td>Eliya<br />(R4)</td>
-          <td>Cam<br />(R4)</td>
-          <td>Bodie<br />(R4)</td>
-          <td>Justin<br />(R4)</td>
-          <td>Daniel<br />(R4)</td>
-          <td>Andee<br />(R4)</td>
-          <td>John<br />(R4)</td>
-          <td>Chase<br />(R4)</td>
-          <td>Arthur<br />(4)</td>
-          <td>Edward<br />(4)</td>
-          <td>Joshua<br />(3)</td>
-          <td>AJ<br />(3)</td>
+          <td width="7%">Eliya<br />(R4)</td>
+          <td width="7%">Cam<br />(R4)</td>
+          <td width="7%">Bodie<br />(R4)</td>
+          <td width="7%">Justin<br />(R4)</td>
+          <td width="7%">Daniel<br />(R4)</td>
+          <td width="7%">Andee<br />(R4)</td>
+          <td width="7%">John<br />(R4)</td>
+          <td width="7%">Chase<br />(R4)</td>
+          <td width="7%">Arthur<br />(4)</td>
+          <td width="7%">Edward<br />(4)</td>
+          <td width="7%">Joshua<br />(3)</td>
+          <td width="7%">AJ<br />(3)</td>
         </tr>
         <tr>
           <th>ML Curriculum</th>

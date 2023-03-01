@@ -1,9 +1,9 @@
 import React from 'react';
 import { Col, Container, Row, Table } from 'react-bootstrap';
-import DXE402 from './DX-E402';
-import WLWN530H4 from './WL-WN530H4';
-import HP292024G from './HP-2920-24G';
-import HP2520G8PoE from './HP-2520G-8-PoE';
+import DXE402 from '../equipment/DX-E402';
+import WLWN530H4 from '../equipment/WL-WN530H4';
+import HP292024G from '../equipment/HP-2920-24G';
+import HP2520G8PoE from '../equipment/HP-2520G-8-PoE';
 
 const Network = () => (
   <Container className="py-3">

@@ -9,7 +9,7 @@ import ToDoList from './pages/ToDoList';
 import EquipmentList from './pages/EquipmentList';
 import Configuration from './pages/Configuration';
 import Departments from './departments/Departments';
-import Network from './departments/Network/Network';
+import Network from './departments/Network';
 import SystemAdmin from './departments/SystemAdmin';
 import KnowledgeManagement from './departments/KnowledgeManagement';
 import SNMPNOC from './departments/SNMPNOC';
@@ -18,13 +18,14 @@ import MLCurriculum from './departments/MLCurriculum';
 import HCI from './departments/HCI';
 import Database from './departments/Database';
 import LogStash from './departments/LogStash';
-import RedTeamSEL from './departments/RedTeamSEL';
+import RedTeamSEL from './departments/RedTeamSEL/RedTeamSEL';
 import Legacy from './legacy/Legacy';
 import LinuxSystem from './legacy/LinuxSystem/LinuxSystem';
 import PiAPI from './legacy/LinuxSystem/PiAPI';
 import LaunchingCommands from './legacy/LinuxSystem/LaunchingCommands';
 import RF from './legacy/RF';
 import PanicButton from './legacy/PanicButton';
+import Tasking from './pages/Tasking';
 
 const App = () => (
   <Router>
@@ -34,6 +35,7 @@ const App = () => (
         <Route path="*" element={<NotFound />} />
         <Route path="/" element={<Home />} />
         <Route path="/team" element={<Team />} />
+        <Route path="/tasking" element={<Tasking />} />
         <Route path="/toDoList" element={<ToDoList />} />
         <Route path="/equipmentList" element={<EquipmentList />} />
         <Route path="/configuration" element={<Configuration />} />

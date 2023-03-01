@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Tab, Tabs } from 'react-bootstrap';
-import HomeTab from './HomeTab';
+import OverviewTab from './OverviewTab';
 import InventoryTab from './InventoryTab';
 import PiBringUp from './PiBringUp';
 import MultiHomingTab from './MultiHomingTab';
@@ -11,9 +11,9 @@ import Miscellaneous from './Miscellaneous';
 const LinuxSystem = () => (
   <Container id="LinuxSystem" className="py-3">
     <h1>Linux System</h1>
-    <Tabs defaultActiveKey="home">
-      <Tab eventKey="home" title="Home" className="py-4">
-        <HomeTab />
+    <Tabs defaultActiveKey="overview">
+      <Tab eventKey="overview" title="Overview" className="py-4">
+        <OverviewTab />
       </Tab>
       <Tab eventKey="inventory" title="Raspberry Pi Inventory" className="py-4">
         <InventoryTab />

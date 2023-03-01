@@ -65,12 +65,12 @@ const HP292024G = () => {
           </ul>
           <ul>
             <h5>sFlow</h5>
-            <li># show sflow &gt;1-3&lt; destination</li>
-            <li># show sflow &gt;1-3&lt; sampling-polling</li>
+            <li># show sflow &lt;1-3&gt; destination</li>
+            <li># show sflow &lt;1-3&gt; sampling-polling</li>
             <li># config</li>
-            <li># (config) sflow &gt;1-3&lt; destination &gt;IP-ADDR&lt;</li>
-            <li># (config) sflow &gt;1-3&lt; polling &gt;port&lt; &gt;polling-interval&lt;</li>
-            <li># (config) sflow &gt;1-3&lt; sampling &gt;port&lt; &gt;sampling-interval&lt;</li>
+            <li># (config) sflow &lt;1-3&gt; destination &lt;IP-ADDR&gt;</li>
+            <li># (config) sflow &lt;1-3&gt; polling &lt;port&gt; &lt;polling-interval&gt;</li>
+            <li># (config) sflow &lt;1-3&gt; sampling &lt;port&gt; &lt;sampling-interval&gt;</li>
           </ul>
           <h3>Configuration Changelog</h3>
           <Table striped bordered>

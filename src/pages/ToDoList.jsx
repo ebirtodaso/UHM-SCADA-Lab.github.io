@@ -10,9 +10,9 @@ const ToDoList = () => (
     <Table striped>
       <thead style={{ fontSize: '18px' }}>
         <tr>
-          <th>SCADA System Task</th>
-          <th>Description</th>
-          <th>Date of Completion</th>
+          <th width="25%">SCADA System Task</th>
+          <th width="55%">Description</th>
+          <th width="20%">Date of Completion</th>
         </tr>
       </thead>
       <tbody style={{ fontSize: '14px' }}>
@@ -66,9 +66,9 @@ const ToDoList = () => (
     <Table striped>
       <thead style={{ fontSize: '18px' }}>
         <tr>
-          <th>Network Admin Task</th>
-          <th>Description</th>
-          <th>Date of Completion</th>
+          <th width="25%">Network Admin Task</th>
+          <th width="55%">Description</th>
+          <th width="20%">Date of Completion</th>
         </tr>
       </thead>
       <tbody style={{ fontSize: '14px' }}>
@@ -87,44 +87,44 @@ const ToDoList = () => (
     <Table striped>
       <thead style={{ fontSize: '18px' }}>
         <tr>
-          <th scope="col">Linux System Admin Task</th>
-          <th scope="col">Description</th>
-          <th scope="col">Date of Completion</th>
+          <th width="25%">Linux System Admin Task</th>
+          <th width="55%">Description</th>
+          <th width="20%">Date of Completion</th>
         </tr>
       </thead>
       <tbody style={{ fontSize: '14px' }}>
         <tr>
-          <th scope="row">Setup DNS Server</th>
+          <th>Setup DNS Server</th>
           <td>Get Bind9 and configure it to be the authoritative DNS server for the domain SCADA lab</td>
           <td>3/7/2022</td>
         </tr>
         <tr>
-          <th scope="row">Setup DHCP reservation system</th>
+          <th>Setup DHCP reservation system</th>
           <td>-</td>
           <td>-</td>
         </tr>
         <tr>
-          <th scope="row">Wiki Update</th>
+          <th>Wiki Update</th>
           <td>Log the changes made in order to set up the DNS server</td>
           <td>3/17/2022</td>
         </tr>
         <tr>
-          <th scope="row">Syslog Server</th>
+          <th>Syslog Server</th>
           <td>-</td>
           <td>-</td>
         </tr>
         <tr>
-          <th scope="row">Audit System</th>
+          <th>Audit System</th>
           <td>Figure out where we left off and bring pi&apos;s up to date</td>
           <td>10/42022</td>
         </tr>
         <tr>
-          <th scope="row">Master OS</th>
+          <th>Master OS</th>
           <td>Create a master copy of the OS that has our configuration and updates</td>
           <td>-</td>
         </tr>
         <tr>
-          <th scope="row">Task</th>
+          <th>Task</th>
           <td>-</td>
           <td>-</td>
         </tr>
@@ -133,63 +133,49 @@ const ToDoList = () => (
     <Table striped>
       <thead style={{ fontSize: '18px' }}>
         <tr>
-          <th scope="col">Webmaster Task</th>
-          <th scope="col">Description</th>
-          <th scope="col">Date of Completion</th>
+          <th width="25%">Webmaster Task</th>
+          <th width="55%">Description</th>
+          <th width="20%">Date of Completion</th>
         </tr>
       </thead>
       <tbody style={{ fontSize: '14px' }}>
         <tr>
-          <th scope="row">Reorganize Wiki</th>
+          <th>Reorganize Wiki</th>
           <td>Reorganize main page for easier access</td>
           <td>4/19/2022</td>
         </tr>
         <tr>
-          <th scope="row">Clean up pages</th>
+          <th>Clean up pages</th>
           <td>Go through each page and make pages look cleaner</td>
           <td>5/3/2022</td>
         </tr>
         <tr>
-          <th scope="row">Transfer Wiki Data</th>
+          <th>Transfer Wiki Data</th>
           <td>Transfer data from old wiki to new wiki</td>
           <td>10/10/2022</td>
         </tr>
         <tr>
-          <th scope="row">Create skeleton web page for wiki</th>
+          <th>Create skeleton web page for wiki</th>
           <td>Create an actual web page for SCADA Lab</td>
           <td>11/15/2022</td>
         </tr>
         <tr>
-          <th scope="row">Clone personal repo to SCADA account</th>
+          <th>Clone personal repo to SCADA account</th>
           <td>Transfer site to SCADA github account</td>
           <td>-</td>
         </tr>
         <tr>
-          <th scope="row">Finish SEL link pages</th>
+          <th>Finish SEL link pages</th>
           <td>-</td>
           <td>11/17/2022</td>
         </tr>
         <tr>
-          <th scope="row">Create pages for each equipment</th>
+          <th>Create pages for each equipment</th>
           <td>-</td>
           <td>-</td>
         </tr>
         <tr>
-          <th scope="row">Create pages for each configuration</th>
-          <td>-</td>
-          <td>-</td>
-        </tr>
-      </tbody>
-    </Table>
-    <Table striped>
-      <thead style={{ fontSize: '18px' }}>
-        <th scope="col">RF Task</th>
-        <th scope="col">Description</th>
-        <th scope="col">Date of Completion</th>
-      </thead>
-      <tbody style={{ fontSize: '14px' }}>
-        <tr>
-          <th scope="row">Task</th>
+          <th>Create pages for each configuration</th>
           <td>-</td>
           <td>-</td>
         </tr>
@@ -197,13 +183,13 @@ const ToDoList = () => (
     </Table>
     <Table striped>
       <thead style={{ fontSize: '18px' }}>
-        <th scope="col">SEL Task</th>
-        <th scope="col">Description</th>
-        <th scope="col">Date of Completion</th>
+        <th width="25%">RF Task</th>
+        <th width="55%">Description</th>
+        <th width="20%">Date of Completion</th>
       </thead>
       <tbody style={{ fontSize: '14px' }}>
         <tr>
-          <th scope="row">Task</th>
+          <th>Task</th>
           <td>-</td>
           <td>-</td>
         </tr>
@@ -211,15 +197,13 @@ const ToDoList = () => (
     </Table>
     <Table striped>
       <thead style={{ fontSize: '18px' }}>
-        <tr>
-          <th scope="col">sFlow Task</th>
-          <th scope="col">Description</th>
-          <th scope="col">Date of Completion</th>
-        </tr>
+        <th width="25%">SEL Task</th>
+        <th width="55%">Description</th>
+        <th width="20%">Date of Completion</th>
       </thead>
       <tbody style={{ fontSize: '14px' }}>
         <tr>
-          <th scope="row">Task</th>
+          <th>Task</th>
           <td>-</td>
           <td>-</td>
         </tr>
@@ -228,39 +212,55 @@ const ToDoList = () => (
     <Table striped>
       <thead style={{ fontSize: '18px' }}>
         <tr>
-          <th scope="col">SDN Task</th>
-          <th scope="col">Description</th>
-          <th scope="col">Date of Completion</th>
+          <th width="25%">sFlow Task</th>
+          <th width="55%">Description</th>
+          <th width="20%">Date of Completion</th>
         </tr>
       </thead>
       <tbody style={{ fontSize: '14px' }}>
         <tr>
-          <th scope="row">RESTful API</th>
+          <th>Task</th>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+      </tbody>
+    </Table>
+    <Table striped>
+      <thead style={{ fontSize: '18px' }}>
+        <tr>
+          <th width="25%">SDN Task</th>
+          <th width="55%">Description</th>
+          <th width="20%">Date of Completion</th>
+        </tr>
+      </thead>
+      <tbody style={{ fontSize: '14px' }}>
+        <tr>
+          <th>RESTful API</th>
           <td>Need a way to connect the data from the photocell sensor to the SDN controller Ryu</td>
           <td>10/04/2022</td>
         </tr>
         <tr>
-          <th scope="row">Control Panel</th>
+          <th>Control Panel</th>
           <td>Create a physical control panel to allow a human to access the live controller</td>
           <td>-</td>
         </tr>
         <tr>
-          <th scope="row">Tagged Traffic</th>
+          <th>Tagged Traffic</th>
           <td>Tagged traffic is not handled (well) by the current program, need to find a better solution</td>
           <td>-</td>
         </tr>
         <tr>
-          <th scope="row">Remove Flows</th>
+          <th>Remove Flows</th>
           <td>Create a solution to remove flows stored in the switch</td>
           <td>9/20/2022</td>
         </tr>
         <tr>
-          <th scope="row">Parsing Packets</th>
+          <th>Parsing Packets</th>
           <td>Parse more information from each flow request (packet) the controller encounters</td>
           <td>-</td>
         </tr>
         <tr>
-          <th scope="row">Control Local Switch</th>
+          <th>Control Local Switch</th>
           <td>Configure Ryu to control both remote and local switches</td>
           <td>-</td>
         </tr>
@@ -269,14 +269,14 @@ const ToDoList = () => (
     <Table striped>
       <thead style={{ fontSize: '18px' }}>
         <tr>
-          <th scope="col">ML/NN Task</th>
-          <th scope="col">Description</th>
-          <th scope="col">Date of Completion</th>
+          <th width="25%">ML/NN Task</th>
+          <th width="55%">Description</th>
+          <th width="20%">Date of Completion</th>
         </tr>
       </thead>
       <tbody style={{ fontSize: '14px' }}>
         <tr>
-          <th scope="row">Task</th>
+          <th>Task</th>
           <td>-</td>
           <td>-</td>
         </tr>
@@ -285,24 +285,24 @@ const ToDoList = () => (
     <Table striped>
       <thead style={{ fontSize: '18px' }}>
         <tr>
-          <th scope="col">SCADA Cam Task</th>
-          <th scope="col">Description</th>
-          <th scope="col">Date of Completion</th>
+          <th width="25%">SCADA Cam Task</th>
+          <th width="55%">Description</th>
+          <th width="20%">Date of Completion</th>
         </tr>
       </thead>
       <tbody style={{ fontSize: '14px' }}>
         <tr>
-          <th scope="row">Get Camera Working</th>
+          <th>Get Camera Working</th>
           <td>Research and figure out how to set up camera</td>
           <td>4/5/2022</td>
         </tr>
         <tr>
-          <th scope="row">EntraNet</th>
+          <th>EntraNet</th>
           <td>Verify that it can send video over the EntraNet wireless link</td>
           <td>-</td>
         </tr>
         <tr>
-          <th scope="row">Lab Computers</th>
+          <th>Lab Computers</th>
           <td>Download AMCREST View Software to SCADA Lab Computers</td>
           <td>-</td>
         </tr>

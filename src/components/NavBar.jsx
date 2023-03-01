@@ -15,7 +15,10 @@ const NavBar = () => (
             <NavDropdown.Item href="/pdfs/Inventory-Sheet.pdf" target="_blank" rel="noreferrer">Inventory Sheet</NavDropdown.Item>
             <NavDropdown.Item href="/toDoList">To-Do List</NavDropdown.Item>
           </NavDropdown>
-          <Nav.Link href="/team">Team</Nav.Link>
+          <NavDropdown align="end" title="Team">
+            <NavDropdown.Item href="/team">Work Teams</NavDropdown.Item>
+            <NavDropdown.Item href="/tasking">Tasking</NavDropdown.Item>
+          </NavDropdown>
           <NavDropdown align="end" title="Equipment">
             <NavDropdown.Item href="/equipmentList">Equipment List</NavDropdown.Item>
             <NavDropdown.Item href="/configuration">Configuration</NavDropdown.Item>
