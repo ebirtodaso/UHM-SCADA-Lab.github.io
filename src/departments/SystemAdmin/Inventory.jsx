@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Container, Table } from 'react-bootstrap';
+import parse from 'html-react-parser';
 
 const Inventory = () => {
   const [error, setError] = useState(null);
@@ -52,7 +53,7 @@ const Inventory = () => {
               item.includes('VLAN') ? (
                 <td>
                   <ul>
-                    <li dangerouslySetInnerHTML={{ __html: item.replaceAll('\n', '</li><li>') }} />
+                    <li>{parse(item.replaceAll('\n', '</li><li>'))}</li>
                   </ul>
                 </td>
               ) : (
