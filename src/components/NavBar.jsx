@@ -2,14 +2,14 @@ import React from 'react';
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 
 const NavBar = () => (
-  <Navbar bg="light" expand="lg">
+  <Navbar style={{ zIndex: 10 }} className="fixed-top w-100" bg="light" expand="lg">
     <Container>
       <Navbar.Brand href="/">
         <img height="60px" src="/images/Logos/SCADA.png" alt="SCADA" />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
-        <Nav>
+        <Nav navbarScroll>
           <NavDropdown align="end" title="Getting Started">
             <NavDropdown.Item href="/pdfs/Inventory-Sheet.pdf" target="_blank" rel="noreferrer">Inventory Sheet</NavDropdown.Item>
             <NavDropdown.Item href="/toDoList">To-Do List</NavDropdown.Item>
