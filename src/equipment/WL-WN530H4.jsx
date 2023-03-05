@@ -27,19 +27,19 @@ const WLWN530H4 = () => {
             </thead>
             <tbody>
               <tr>
-                <th>Model #</th>
+                <td>Model #</td>
                 <td>WL-WN530H4</td>
               </tr>
               <tr>
-                <th>Name</th>
+                <td>Name</td>
                 <td>Wavlink</td>
               </tr>
               <tr>
-                <th>IP</th>
+                <td>IP</td>
                 <td>10.1.1.1/24</td>
               </tr>
               <tr>
-                <th>MAC</th>
+                <td>MAC</td>
                 <td>80:3f:5d:f4:40:b9</td>
               </tr>
             </tbody>
@@ -59,23 +59,23 @@ const WLWN530H4 = () => {
             </thead>
             <tbody>
               <tr>
-                <th>WAN Type</th>
+                <td>WAN Type</td>
                 <td>Router (DHCP)</td>
               </tr>
               <tr>
-                <th>WAN IP</th>
+                <td>WAN IP</td>
                 <td>192.168.1.103</td>
               </tr>
               <tr>
-                <th>WAN MAC</th>
+                <td>WAN MAC</td>
                 <td>80:3f:5d:f4:f0:b9</td>
               </tr>
               <tr>
-                <th>Device IP</th>
+                <td>Device IP</td>
                 <td>10.1.1.1</td>
               </tr>
               <tr>
-                <th>Version</th>
+                <td>Version</td>
                 <td>M30H4,V5030.190403</td>
               </tr>
             </tbody>
@@ -88,15 +88,15 @@ const WLWN530H4 = () => {
             </thead>
             <tbody>
               <tr>
-                <th>WAN Type</th>
+                <td>WAN Type</td>
                 <td>DHCP</td>
               </tr>
               <tr>
-                <th>DNS</th>
+                <td>DNS</td>
                 <td>Automatic</td>
               </tr>
               <tr>
-                <th>DDNS</th>
+                <td>DDNS</td>
                 <td>Off</td>
               </tr>
             </tbody>
@@ -109,21 +109,21 @@ const WLWN530H4 = () => {
             </thead>
             <tbody>
               <tr>
-                <th>Wifi</th>
+                <td>Wifi</td>
                 <td>Hidden</td>
                 <td>SSID</td>
                 <td>Security Type</td>
                 <td>Password</td>
               </tr>
               <tr>
-                <th>2.4G</th>
+                <td>2.4G</td>
                 <td>No</td>
                 <td>SCADA-2.4G</td>
                 <td>WPA2-PSK</td>
                 <td>Sc@d@21!</td>
               </tr>
               <tr>
-                <th>5G</th>
+                <td>5G</td>
                 <td>No</td>
                 <td>SCADA-2.4G</td>
                 <td>WPA2-PSK</td>
@@ -139,19 +139,19 @@ const WLWN530H4 = () => {
             </thead>
             <tbody>
               <tr>
-                <th>DHCP Range</th>
+                <td>DHCP Range</td>
                 <td>10.1.1.100 to 10.1.1.200</td>
               </tr>
               <tr>
-                <th>Subnet Mask</th>
+                <td>Subnet Mask</td>
                 <td>255.255.255.0</td>
               </tr>
               <tr>
-                <th>Gateway</th>
+                <td>Gateway</td>
                 <td>192.168.1.1</td>
               </tr>
               <tr>
-                <th>DHCP Lease Time</th>
+                <td>DHCP Lease Time</td>
                 <td>1 year</td>
               </tr>
             </tbody>

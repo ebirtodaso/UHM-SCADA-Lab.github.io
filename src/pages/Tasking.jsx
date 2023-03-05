@@ -7,7 +7,7 @@ const Tasking = () => (
     <p>We have set up GitHub project pages for each department. This allows us to efficiently organize the various tasks we have within each department and indicate its current status (Todo, In Progress, or Done).</p>
     <Row className="justify-content-center">
       <Col lg={10}>
-        <Table bordered>
+        <Table striped bordered>
           <thead>
             <tr>
               <th width="50%">Operations</th>

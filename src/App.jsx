@@ -5,6 +5,8 @@ import Footer from './components/Footer';
 import NotFound from './pages/NotFound';
 import Home from './pages/Home';
 import Team from './pages/Team';
+import Media from './pages/Media';
+import Tasking from './pages/Tasking';
 import ToDoList from './pages/ToDoList';
 import EquipmentList from './pages/EquipmentList';
 import Configuration from './pages/Configuration';
@@ -13,18 +15,14 @@ import Network from './departments/Network';
 import SystemAdmin from './departments/SystemAdmin/SystemAdmin';
 import KnowledgeManagement from './departments/KnowledgeManagement';
 import SNMPNOC from './departments/SNMPNOC';
-import SFlowSDN from './departments/SFlowSDN';
+import SFlowSDN from './departments/SFlowSDN/SFlowSDN';
 import MLCurriculum from './departments/MLCurriculum';
 import HCI from './departments/HCI';
 import Database from './departments/Database';
-import LogStash from './departments/LogStash';
 import RedTeamSEL from './departments/RedTeamSEL/RedTeamSEL';
+import LogStash from './departments/LogStash';
 import Legacy from './legacy/Legacy';
-import PiAPI from './departments/SystemAdmin/PiAPI';
-import LaunchingCommands from './departments/SystemAdmin/LaunchingCommands';
 import RF from './legacy/RF';
-import PanicButton from './legacy/PanicButton';
-import Tasking from './pages/Tasking';
 
 const App = () => (
   <Router>
@@ -34,6 +32,7 @@ const App = () => (
         <Route path="*" element={<NotFound />} />
         <Route path="/" element={<Home />} />
         <Route path="/team" element={<Team />} />
+        <Route path="/media" element={<Media />} />
         <Route path="/tasking" element={<Tasking />} />
         <Route path="/toDoList" element={<ToDoList />} />
         <Route path="/equipmentList" element={<EquipmentList />} />
@@ -54,10 +53,7 @@ const App = () => (
 
         {/* Legacy Pages */}
         <Route path="/legacy" element={<Legacy />} />
-        <Route path="/piAPI" element={<PiAPI />} />
-        <Route path="/launchingCommands" element={<LaunchingCommands />} />
         <Route path="/rf" element={<RF />} />
-        <Route path="/panicButton" element={<PanicButton />} />
       </Routes>
       <Footer />
     </div>

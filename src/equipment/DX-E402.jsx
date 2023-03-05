@@ -27,19 +27,19 @@ const DXE402 = () => {
             </thead>
             <tbody>
               <tr>
-                <th>Model #</th>
+                <td>Model #</td>
                 <td>DX-E402</td>
               </tr>
               <tr>
-                <th>Name</th>
+                <td>Name</td>
                 <td>UH Uplink, Holmes 450</td>
               </tr>
               <tr>
-                <th>IP</th>
+                <td>IP</td>
                 <td>192.168.1.1/24</td>
               </tr>
               <tr>
-                <th>MAC</th>
+                <td>MAC</td>
                 <td>00:25:86:f6:ad:ec</td>
               </tr>
             </tbody>

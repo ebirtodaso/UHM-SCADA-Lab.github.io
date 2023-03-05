@@ -18,7 +18,6 @@ h1 {
 
 .dropdown-menu {
   border-radius: 0;
-  text-align: center;
 }
 
 a.nav-link {
@@ -45,11 +44,11 @@ ul li a, ol li a {
   transform: translate(-50%, -50%);
 }
 
-#SystemAdmin button {
+li.nav-item button[role=tab] {
   color: var(--dark-green);
 }
 
-#SystemAdmin button.active {
+li.nav-item button[role=tab].active {
   background-color: var(--dark-green);
   color: white;
 }
@@ -57,4 +56,15 @@ ul li a, ol li a {
 #ImageCarousel img {
   width: 100%;
   overflow: hidden;
+}
+
+#SEL311B img {
+  width: 100%;
+  max-width: 500px;
+}
+
+iframe {
+  aspect-ratio: 16/9;
+  width: 100%;
+  margin: 0.5rem 0;
 }

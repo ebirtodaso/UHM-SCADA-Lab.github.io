@@ -1,28 +1,32 @@
 import React from 'react';
-import { Container, Table } from 'react-bootstrap';
+import { Col, Container, Row, Table } from 'react-bootstrap';
 
 const Configuration = () => (
   <Container className="py-3">
     <h1>Configurations</h1>
     <h3>Static IP Address List</h3>
-    <Table striped style={{ width: '50%' }}>
-      <thead>
-        <tr>
-          <th>Device Name</th>
-          <th>IP Address</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th>entraNET Access Point</th>
-          <td>192.168.1.200</td>
-        </tr>
-        <tr>
-          <th>SEL 451</th>
-          <td>192.9.0.2/16 (must confirm)</td>
-        </tr>
-      </tbody>
-    </Table>
+    <Row>
+      <Col lg={6}>
+        <Table striped bordered>
+          <thead>
+            <tr>
+              <th>Device Name</th>
+              <th>IP Address</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>entraNET Access Point</td>
+              <td>192.168.1.200</td>
+            </tr>
+            <tr>
+              <td>SEL 451</td>
+              <td>192.9.0.2/16 (must confirm)</td>
+            </tr>
+          </tbody>
+        </Table>
+      </Col>
+    </Row>
     <h3>Equipment List</h3>
     <p>Please click the links below for the configuration of each device.</p>
     <ul>

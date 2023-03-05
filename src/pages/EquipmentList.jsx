@@ -29,7 +29,7 @@ const EquipmentList = () => (
       </thead>
       <tbody>
         <tr>
-          <th>entraNET Access Point</th>
+          <td>entraNET Access Point</td>
           <td><a href="/" className="link-secondary">More Information</a></td>
           <td>HQ</td>
           <td>6-30V</td>
@@ -49,7 +49,7 @@ const EquipmentList = () => (
           <td />
         </tr>
         <tr>
-          <th>Mean Well PS</th>
+          <td>Mean Well PS</td>
           <td><a href="/" className="link-secondary">More Information</a></td>
           <td>HQ & SUB</td>
           <td />
@@ -69,7 +69,7 @@ const EquipmentList = () => (
           <td />
         </tr>
         <tr>
-          <th>entraNET Serial Remote</th>
+          <td>entraNET Serial Remote</td>
           <td><a href="/" className="link-secondary">More Information</a></td>
           <td>SUB</td>
           <td>6-30V</td>
@@ -89,7 +89,7 @@ const EquipmentList = () => (
           <td>x</td>
         </tr>
         <tr>
-          <th>entraNET Dual Remote</th>
+          <td>entraNET Dual Remote</td>
           <td><a href="/" className="link-secondary">More Information</a></td>
           <td>SUB</td>
           <td>6-30V</td>
@@ -109,7 +109,7 @@ const EquipmentList = () => (
           <td>x</td>
         </tr>
         <tr>
-          <th>SEL 3505</th>
+          <td>SEL 3505</td>
           <td><a href="/" className="link-secondary">More Information</a></td>
           <td>SUB</td>
           <td>12-24V</td>
@@ -129,7 +129,7 @@ const EquipmentList = () => (
           <td>x</td>
         </tr>
         <tr>
-          <th>SEL 311</th>
+          <td>SEL 311</td>
           <td><a href="/" className="link-secondary">More Information</a></td>
           <td>SUB</td>
           <td>24-250V</td>
@@ -149,7 +149,7 @@ const EquipmentList = () => (
           <td />
         </tr>
         <tr>
-          <th>SEL 451</th>
+          <td>SEL 451</td>
           <td><a href="/" className="link-secondary">More Information</a></td>
           <td>SUB</td>
           <td>110-120V</td>
@@ -169,7 +169,7 @@ const EquipmentList = () => (
           <td>x</td>
         </tr>
         <tr>
-          <th>Direct Logic 205 Koyo</th>
+          <td>Direct Logic 205 Koyo</td>
           <td><a href="/" className="link-secondary">More Information</a></td>
           <td>SUB</td>
           <td>100-240V</td>
@@ -189,7 +189,7 @@ const EquipmentList = () => (
           <td />
         </tr>
         <tr>
-          <th>H2-DM1E</th>
+          <td>H2-DM1E</td>
           <td><a href="/" className="link-secondary">More Information</a></td>
           <td>SUB</td>
           <td>24V</td>
@@ -209,7 +209,7 @@ const EquipmentList = () => (
           <td>x</td>
         </tr>
         <tr>
-          <th>D2-16ND3-2</th>
+          <td>D2-16ND3-2</td>
           <td><a href="/" className="link-secondary">More Information</a></td>
           <td>SUB</td>
           <td>24V</td>
@@ -229,7 +229,7 @@ const EquipmentList = () => (
           <td />
         </tr>
         <tr>
-          <th>F2-16TD2p</th>
+          <td>F2-16TD2p</td>
           <td><a href="/" className="link-secondary">More Information</a></td>
           <td>SUB</td>
           <td>24V</td>
@@ -249,7 +249,7 @@ const EquipmentList = () => (
           <td />
         </tr>
         <tr>
-          <th>SEL 2740S</th>
+          <td>SEL 2740S</td>
           <td><a href="/" className="link-secondary">More Information</a></td>
           <td>HQ</td>
           <td />

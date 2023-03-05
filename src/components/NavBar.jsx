@@ -5,18 +5,18 @@ const NavBar = () => (
   <Navbar bg="light" expand="lg">
     <Container>
       <Navbar.Brand href="/">
-        <img height="60px" src="/images/SCADA.png" alt="SCADA" />
+        <img height="60px" src="/images/Logos/SCADA.png" alt="SCADA" />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
         <Nav>
           <NavDropdown align="end" title="Getting Started">
-            <NavDropdown.Item href="https://discord.gg/ptPvf9etBh" target="_blank" rel="noreferrer">SCADA Discord</NavDropdown.Item>
             <NavDropdown.Item href="/pdfs/Inventory-Sheet.pdf" target="_blank" rel="noreferrer">Inventory Sheet</NavDropdown.Item>
             <NavDropdown.Item href="/toDoList">To-Do List</NavDropdown.Item>
           </NavDropdown>
           <NavDropdown align="end" title="Team">
             <NavDropdown.Item href="/team">Work Teams</NavDropdown.Item>
+            <NavDropdown.Item href="/media">Media</NavDropdown.Item>
             <NavDropdown.Item href="/tasking">Tasking</NavDropdown.Item>
           </NavDropdown>
           <NavDropdown align="end" title="Equipment">

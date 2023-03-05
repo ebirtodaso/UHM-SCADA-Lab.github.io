@@ -12,27 +12,27 @@ const Network = () => (
       <Col lg={8}>
         <h3>Relevant Devices</h3>
         <Table striped bordered>
-          <thead style={{ fontSize: '18px' }}>
+          <thead>
             <tr>
               <th>Device</th>
               <th>Description</th>
             </tr>
           </thead>
-          <tbody style={{ fontSize: '14px' }}>
+          <tbody>
             <tr>
-              <th><DXE402 /></th>
+              <td><DXE402 /></td>
               <td>Dynex router used as the UH Uplink.</td>
             </tr>
             <tr>
-              <th><WLWN530H4 /></th>
+              <td><WLWN530H4 /></td>
               <td>Wavlink router used to wirelessly connect devices to the internet and SCADA network.</td>
             </tr>
             <tr>
-              <th><HP292024G /></th>
+              <td><HP292024G /></td>
               <td>A 24-port network switch.</td>
             </tr>
             <tr>
-              <th><HP2520G8PoE /></th>
+              <td><HP2520G8PoE /></td>
               <td>A 10-port network switch.</td>
             </tr>
           </tbody>

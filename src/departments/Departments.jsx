@@ -7,7 +7,7 @@ const Departments = () => (
     <Row>
       <Col className="text-center py-4">
         <a href="/network">
-          <img src="/images/NetworkDepartment.png" alt="Network Department" />
+          <img src="/images/Departments/Network.png" alt="Network Department" />
           <h1><Badge bg="secondary">Network</Badge></h1>
         </a>
       </Col>
@@ -21,7 +21,7 @@ const Departments = () => (
     <Row>
       <Col className="text-center py-4">
         <a href="/knowledgeManagement">
-          <img src="/images/WebmasterDepartment.png" alt="Knowledge Management Department" />
+          <img src="/images/Departments/KnowledgeManagement.png" alt="Knowledge Management Department" />
           <h1><Badge bg="secondary">Knowledge Management</Badge></h1>
         </a>
       </Col>
@@ -35,7 +35,7 @@ const Departments = () => (
     <Row>
       <Col className="text-center py-4">
         <a href="/sFlow-SDN">
-          <img src="/images/SDNDepartment.png" alt="sFlow/SDN Department" />
+          <img src="/images/Departments/SFlow-SDN.png" alt="sFlow/SDN Department" />
           <h1><Badge bg="secondary">sFlow/SDN</Badge></h1>
         </a>
       </Col>
@@ -44,7 +44,7 @@ const Departments = () => (
     <Row>
       <Col className="text-center py-4">
         <a href="/mlCurriculum">
-          <img src="/images/MachineLearningDepartment.png" alt="ML Curriculum Department" />
+          <img src="/images/Departments/MachineLearning.png" alt="ML Curriculum Department" />
           <h1><Badge bg="secondary">ML Curriculum</Badge></h1>
         </a>
       </Col>
@@ -64,7 +64,7 @@ const Departments = () => (
       </Col>
       <Col className="text-center py-4">
         <a href="/redTeam-SEL">
-          <img src="/images/SELDepartment.png" alt="Red Team/SEL Department" />
+          <img src="/images/Departments/RedTeam-SEL.png" alt="Red Team/SEL Department" />
           <h1><Badge bg="secondary">Red Team/SEL</Badge></h1>
         </a>
       </Col>

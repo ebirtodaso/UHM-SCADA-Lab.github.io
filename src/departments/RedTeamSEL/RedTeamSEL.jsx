@@ -1,6 +1,11 @@
 import React from 'react';
 import { Col, Container, Row, Tab, Table, Tabs } from 'react-bootstrap';
-import OverviewTab from './OverviewTab';
+import Overview from './Overview';
+import SEL451Config from './SEL451Config';
+import SEL311BConfig from './SEL311BConfig';
+import SELSetup from './SELSetup';
+import WiringDiagram from './WiringDiagram';
+import OutputTesting from './OutputTesting';
 
 const RedTeamSEL = () => (
   <Container className="py-3">
@@ -9,28 +14,28 @@ const RedTeamSEL = () => (
       <Col lg={8}>
         <h3>Relevant Devices</h3>
         <Table striped bordered>
-          <thead style={{ fontSize: '18px' }}>
+          <thead>
             <tr>
               <th>Device</th>
               <th>Description</th>
             </tr>
           </thead>
-          <tbody style={{ fontSize: '14px' }}>
+          <tbody>
             <tr>
-              <th>RTAC SEL-3505</th>
-              <td>Test</td>
+              <td>RTAC SEL-3505</td>
+              <td><a href="https://laulima.hawaii.edu/access/content/group/MAN.XLSEEX96mn.202310/Manuals/RTAC%20SEL-3505/RTA%20SEL-3505%20Manual.pdf">Manual</a></td>
             </tr>
             <tr>
-              <th>SEL-451</th>
-              <td>Test</td>
+              <td>SEL-451</td>
+              <td><a href="https://laulima.hawaii.edu/access/content/group/MAN.XLSEEX96mn.202310/Manuals/SEL%20-%20451/SEL%20-%20451%20Factory%20Reset/sel451%20manual.pdf">Manual</a></td>
             </tr>
             <tr>
-              <th>SEL 311B</th>
-              <td>Test</td>
+              <td>SEL 311B</td>
+              <td><a href="https://laulima.hawaii.edu/access/content/group/MAN.XLSEEX96mn.202310/Manuals/SEL-311%20B/311B%20Instruction%20Manual.pdf">Manual</a></td>
             </tr>
             <tr>
-              <th>DL 205</th>
-              <td>Test</td>
+              <td>DL 205</td>
+              <td><a href="https://laulima.hawaii.edu/access/content/group/MAN.XLSEEX96mn.202310/Manuals/Direct%20Logic%20205%20Koyo/DL205%20Manual.pdf">Manual</a></td>
             </tr>
           </tbody>
         </Table>
@@ -38,7 +43,34 @@ const RedTeamSEL = () => (
     </Row>
     <Tabs defaultActiveKey="overview">
       <Tab eventKey="overview" title="Overview" className="py-4">
-        <OverviewTab />
+        <Overview />
+      </Tab>
+      <Tab eventKey="factoryReset" title="Factory Reset" className="py-4">
+        <img style={{ width: '100%', maxWidth: '750px' }} src="/images/RedTeamSEL/factoryReset.png" alt="Factory Reset" />
+      </Tab>
+      <Tab eventKey="SEL451Config" title="SEL-451 Configuration" className="py-4">
+        <SEL451Config />
+      </Tab>
+      <Tab eventKey="SEL311BConfig" title="SEL-311B Configuration" className="py-4">
+        <SEL311BConfig />
+      </Tab>
+      <Tab eventKey="SELDemo" title="SEL Demo" className="py-4">
+        <iframe
+          style={{ maxWidth: '900px' }}
+          src="https://www.youtube.com/embed/LlS2wIQo9GY?rel=0"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowFullScreen
+        />
+      </Tab>
+      <Tab eventKey="SELSetup" title="SEL Setup" className="py-4">
+        <SELSetup />
+      </Tab>
+      <Tab eventKey="wiringDiagram" title="Wiring Diagram" className="py-4">
+        <WiringDiagram />
+      </Tab>
+      <Tab eventKey="outputTesting" title="Output Testing" className="py-4">
+        <OutputTesting />
       </Tab>
     </Tabs>
   </Container>

@@ -14,9 +14,9 @@ const Team = () => (
           <th colSpan="2" style={{ fontSize: '20px', verticalAlign: 'bottom' }}>Director: John</th>
         </tr>
       </thead>
-      <tbody>
+      <tbody className="border">
         <tr>
-          <th />
+          <td />
           <td width="7%">Eliya<br />(R4)</td>
           <td width="7%">Cam<br />(R4)</td>
           <td width="7%">Bodie<br />(R4)</td>
@@ -31,7 +31,7 @@ const Team = () => (
           <td width="7%">AJ<br />(3)</td>
         </tr>
         <tr>
-          <th>Network</th>
+          <td>Network</td>
           <td>-</td>
           <td>Assistant</td>
           <td>-</td>
@@ -46,7 +46,7 @@ const Team = () => (
           <td>-</td>
         </tr>
         <tr>
-          <th>System Admin</th>
+          <td>System Admin</td>
           <td>Assistant</td>
           <td>-</td>
           <td>-</td>
@@ -61,7 +61,7 @@ const Team = () => (
           <td>-</td>
         </tr>
         <tr>
-          <th>Knowledge Management</th>
+          <td>Knowledge Management</td>
           <td>Lead</td>
           <td>-</td>
           <td>-</td>
@@ -76,7 +76,7 @@ const Team = () => (
           <td>Assistant</td>
         </tr>
         <tr>
-          <th>SNMP/NOC</th>
+          <td>SNMP/NOC</td>
           <td>-</td>
           <td>Lead</td>
           <td>-</td>
@@ -91,7 +91,7 @@ const Team = () => (
           <td>Assistant</td>
         </tr>
         <tr>
-          <th>sFlow & SDN</th>
+          <td>sFlow & SDN</td>
           <td>-</td>
           <td>-</td>
           <td>-</td>
@@ -114,9 +114,9 @@ const Team = () => (
           <th colSpan="2" style={{ fontSize: '20px', verticalAlign: 'bottom' }}>Director: Justin</th>
         </tr>
       </thead>
-      <tbody>
+      <tbody className="border">
         <tr>
-          <th />
+          <td />
           <td width="7%">Eliya<br />(R4)</td>
           <td width="7%">Cam<br />(R4)</td>
           <td width="7%">Bodie<br />(R4)</td>
@@ -131,7 +131,7 @@ const Team = () => (
           <td width="7%">AJ<br />(3)</td>
         </tr>
         <tr>
-          <th>ML Curriculum</th>
+          <td>ML Curriculum</td>
           <td>-</td>
           <td>-</td>
           <td>-</td>
@@ -146,7 +146,7 @@ const Team = () => (
           <td>-</td>
         </tr>
         <tr>
-          <th>HCI</th>
+          <td>HCI</td>
           <td>-</td>
           <td>-</td>
           <td>Lead</td>
@@ -161,7 +161,7 @@ const Team = () => (
           <td>-</td>
         </tr>
         <tr>
-          <th>Database</th>
+          <td>Database</td>
           <td>-</td>
           <td>-</td>
           <td>Lead</td>
@@ -176,7 +176,7 @@ const Team = () => (
           <td>-</td>
         </tr>
         <tr>
-          <th>Red Team/SEL</th>
+          <td>Red Team/SEL</td>
           <td>-</td>
           <td>Assistant</td>
           <td>-</td>
@@ -191,7 +191,7 @@ const Team = () => (
           <td>-</td>
         </tr>
         <tr>
-          <th>Log Stash</th>
+          <td>Log Stash</td>
           <td>-</td>
           <td>-</td>
           <td>Assistant</td>

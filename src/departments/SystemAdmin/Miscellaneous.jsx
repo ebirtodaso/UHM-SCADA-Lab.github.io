@@ -1,4 +1,6 @@
 import React from 'react';
+import PiAPI from './PiAPI';
+import LaunchingCommands from './LaunchingCommands';
 
 const Miscellaneous = () => (
   <span>
@@ -30,10 +32,10 @@ const Miscellaneous = () => (
         <a href="/pdfs/SEL3505-Manual.pdf" target="_blank" rel="noreferrer">RTA SEL-3505 Manual</a>
       </li>
       <li>
-        <a href="/piAPI">PI IO and RESTful API</a>
+        <PiAPI />
       </li>
       <li>
-        <a href="/launchingCommands">Launching Commands On Start</a>
+        <LaunchingCommands />
       </li>
       <li>
         <a href="https://www.raspberrypi.com/">Raspberry Pi Homepage</a>

@@ -18,7 +18,7 @@ const DHCPServer = () => (
       </ul>
       <li>Configure DHCP Server in the file /etc/dhcp/dhcpd.conf</li>
       <ul>
-        <img src="/images/DHCPServer_dhcpd.png" alt="DHCP Server" style={{ width: '100%', maxWidth: '375px' }} />
+        <img src="/images/SystemAdmin/DHCPServer_dhcpd.png" alt="DHCP Server" style={{ width: '100%', maxWidth: '375px' }} />
       </ul>
       <li>
         <a href="https://wiki.debian.org/DHCP_Server">Tutorial to Setup DHCP Server</a>
@@ -34,7 +34,7 @@ const DHCPServer = () => (
     <ol>
       <li>Add configuration in /etc/dhcp/dhcpd.conf (near the bottom)</li>
       <ul>
-        <img src="/images/DHCPServer_fixedAddressing.png" alt="Fixed Addressing" style={{ width: '100%', maxWidth: '375px' }} />
+        <img src="/images/SystemAdmin/DHCPServer_fixedAddressing.png" alt="Fixed Addressing" style={{ width: '100%', maxWidth: '375px' }} />
       </ul>
     </ol>
   </span>

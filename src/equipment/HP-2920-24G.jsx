@@ -19,7 +19,7 @@ const HP292024G = () => {
         <Offcanvas.Body>
           <h3>HP Network Switch</h3>
           <p>Product Summary: A 24-port network switch.</p>
-          <img src="/images/HP292024G.jpeg" alt="HP 2920-24G" style={{ maxWidth: '600px', width: '100%' }} />
+          <img src="/images/Equipment/HP292024G.jpeg" alt="HP 2920-24G" style={{ maxWidth: '600px', width: '100%' }} />
           <h3>Device Links</h3>
           <ul>
             <li><a href="/pdfs/HP292024G-Admin_Guide.pdf">HP OpenFlow Administrator Guide</a></li>
@@ -83,22 +83,22 @@ const HP292024G = () => {
             </thead>
             <tbody>
               <tr>
-                <th scope="row">3/1/2022</th>
+                <td>3/1/2022</td>
                 <td>Jessica Jones</td>
                 <td>Unpacked switch and installed in cabinet</td>
               </tr>
               <tr>
-                <th scope="row">3/1/2022</th>
+                <td>3/1/2022</td>
                 <td>Mark Nelson</td>
                 <td>Reset switch configuration and updated firmware</td>
               </tr>
               <tr>
-                <th scope="row">3/3/2022</th>
+                <td>3/3/2022</td>
                 <td>Mark Nelson</td>
                 <td>Updated Wiki configuration</td>
               </tr>
               <tr>
-                <th scope="row">9/82022</th>
+                <td>9/82022</td>
                 <td>Cameron Canda</td>
                 <td>Updated firmware on local and remote switch</td>
               </tr>

@@ -8,16 +8,16 @@ const Home = () => (
       <Col lg={7}>
         <Carousel id="ImageCarousel">
           <Carousel.Item>
-            <img src="/images/Carousel_1.jpeg" alt="Carousel 1" />
+            <img src="/images/Home/Carousel_1.jpeg" alt="Carousel 1" />
           </Carousel.Item>
           <Carousel.Item>
-            <img src="/images/Carousel_2.jpeg" alt="Carousel 2" />
+            <img src="/images/Home/Carousel_2.jpeg" alt="Carousel 2" />
           </Carousel.Item>
           <Carousel.Item>
-            <img src="/images/Carousel_3.jpeg" alt="Carousel 3" />
+            <img src="/images/Home/Carousel_3.jpeg" alt="Carousel 3" />
           </Carousel.Item>
           <Carousel.Item>
-            <img src="/images/Carousel_4.jpeg" alt="Carousel 4" />
+            <img src="/images/Home/Carousel_4.jpeg" alt="Carousel 4" />
           </Carousel.Item>
         </Carousel>
       </Col>
@@ -43,23 +43,23 @@ const Home = () => (
           </thead>
           <tbody>
             <tr>
-              <th><a href="/">Network</a></th>
+              <td><a href="/network">Network</a></td>
               <td>Configure the network, maintain network equipment</td>
             </tr>
             <tr>
-              <th><a href="/">System Admin</a></th>
+              <td><a href="/systemAdmin">System Admin</a></td>
               <td>Program and maintain Raspberry Pis</td>
             </tr>
             <tr>
-              <th><a href="/">Knowledge Management</a></th>
+              <td><a href="/knowledgeManagement">Knowledge Management</a></td>
               <td>Maintain the website, write procedures for lab members</td>
             </tr>
             <tr>
-              <th><a href="/">SNMP/NOC</a></th>
+              <td><a href="/snmp-noc">SNMP/NOC</a></td>
               <td>Under Construction</td>
             </tr>
             <tr>
-              <th><a href="/">sFlow & SDN</a></th>
+              <td><a href="/sFlow-SDN">sFlow & SDN</a></td>
               <td>Under Construction</td>
             </tr>
           </tbody>
@@ -74,23 +74,23 @@ const Home = () => (
           </thead>
           <tbody>
             <tr>
-              <th><a href="/">ML Curriculum</a></th>
+              <td><a href="/mlCurriculum">ML Curriculum</a></td>
               <td>Research and implement a machine learning algorithm to make risk-based decision for the SDN controller.</td>
             </tr>
             <tr>
-              <th><a href="/">HCI</a></th>
+              <td><a href="/hci">HCI</a></td>
               <td>Under Construction</td>
             </tr>
             <tr>
-              <th><a href="/">Database</a></th>
+              <td><a href="/database">Database</a></td>
               <td>Under Construction</td>
             </tr>
             <tr>
-              <th><a href="/">Red Team/SEL</a></th>
+              <td><a href="/redTeam-SEL">Red Team/SEL</a></td>
               <td>Research and operate SEL switching devices, connect and exchange communication within SEL devices</td>
             </tr>
             <tr>
-              <th><a href="/">Log Stash</a></th>
+              <td><a href="/logStash">Log Stash</a></td>
               <td>Under Construction</td>
             </tr>
           </tbody>
@@ -105,7 +105,7 @@ const Home = () => (
           </thead>
           <tbody>
             <tr>
-              <th><a href="/">Radio Frequency</a></th>
+              <td><a href="/rf">Radio Frequency</a></td>
               <td>Establish and maintain RF communication between buildings</td>
             </tr>
           </tbody>
