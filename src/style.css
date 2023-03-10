@@ -69,3 +69,19 @@ iframe {
   width: 100%;
   margin: 0.5rem 0;
 }
+
+.example .container{
+  border: red 2px solid;
+}
+
+.example .row {
+  border: blue 2px solid;
+  margin: 1rem;
+}
+
+.example .col, .example .col-2 {
+  border: black 2px solid;
+  margin: 1rem;
+}
+
+

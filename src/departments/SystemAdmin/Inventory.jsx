@@ -8,7 +8,7 @@ const Inventory = () => {
   const [items, setItems] = useState([]);
 
   useEffect(() => {
-    fetch('https://sheets.googleapis.com/v4/spreadsheets/19uHAJYPDpXzMhz6kOr7Kw-wMmjW28H0rBErGegDYUY4/values/Inventory?valueRenderOption=FORMATTED_VALUE&key=AIzaSyAtUB_NkoudBNBzr1Zyd967cQBtWXHnMuo')
+    fetch('https://sheets.googleapis.com/v4/spreadsheets/19uHAJYPDpXzMhz6kOr7Kw-wMmjW28H0rBErGegDYUY4/values/Pi%20Inventory!B3:N20?valueRenderOption=FORMATTED_VALUE&key=AIzaSyAtUB_NkoudBNBzr1Zyd967cQBtWXHnMuo')
       .then(res => res.json())
       .then(
         (result) => {

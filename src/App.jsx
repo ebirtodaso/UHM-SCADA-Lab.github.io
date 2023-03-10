@@ -21,8 +21,8 @@ import HCI from './departments/HCI';
 import Database from './departments/Database';
 import RedTeamSEL from './departments/RedTeamSEL/RedTeamSEL';
 import LogStash from './departments/LogStash';
-import Legacy from './legacy/Legacy';
-import RF from './legacy/RF';
+import Legacy from './pages/Legacy';
+import RF from './departments/RF';
 
 const App = () => (
   <Router>

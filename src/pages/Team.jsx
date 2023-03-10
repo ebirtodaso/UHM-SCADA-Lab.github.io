@@ -1,213 +1,105 @@
-import React from 'react';
-import { Container, Table } from 'react-bootstrap';
+import React, { useEffect, useState } from 'react';
+import { Col, Container, Row, Table } from 'react-bootstrap';
+import parse from 'html-react-parser';
 
-const Team = () => (
-  <Container className="py-3">
-    <h1>In-Class Work Teams</h1>
-    <p style={{ fontSize: '18px' }}>
-      This table displays the members and the jobs they are responsible for.
-    </p>
-    <Table striped responsive="xl">
-      <thead>
-        <tr>
-          <th colSpan="11" style={{ fontSize: '24px' }}>Operations</th>
-          <th colSpan="2" style={{ fontSize: '20px', verticalAlign: 'bottom' }}>Director: John</th>
-        </tr>
-      </thead>
-      <tbody className="border">
-        <tr>
-          <td />
-          <td width="7%">Eliya<br />(R4)</td>
-          <td width="7%">Cam<br />(R4)</td>
-          <td width="7%">Bodie<br />(R4)</td>
-          <td width="7%">Justin<br />(R4)</td>
-          <td width="7%">Daniel<br />(R4)</td>
-          <td width="7%">Andee<br />(R4)</td>
-          <td width="7%">John<br />(R4)</td>
-          <td width="7%">Chase<br />(R4)</td>
-          <td width="7%">Arthur<br />(4)</td>
-          <td width="7%">Edward<br />(4)</td>
-          <td width="7%">Joshua<br />(3)</td>
-          <td width="7%">AJ<br />(3)</td>
-        </tr>
-        <tr>
-          <td>Network</td>
-          <td>-</td>
-          <td>Assistant</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>Lead</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>Assistant</td>
-          <td>-</td>
-          <td>-</td>
-        </tr>
-        <tr>
-          <td>System Admin</td>
-          <td>Assistant</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>Lead</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>Assistant</td>
-          <td>-</td>
-          <td>Assistant</td>
-          <td>-</td>
-        </tr>
-        <tr>
-          <td>Knowledge Management</td>
-          <td>Lead</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>Assistant</td>
-          <td>-</td>
-          <td>-</td>
-          <td>Assistant</td>
-        </tr>
-        <tr>
-          <td>SNMP/NOC</td>
-          <td>-</td>
-          <td>Lead</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>Assistant</td>
-        </tr>
-        <tr>
-          <td>sFlow & SDN</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>Assistant</td>
-          <td>-</td>
-          <td>Lead</td>
-          <td>-</td>
-          <td>-</td>
-          <td>Assistant</td>
-          <td>-</td>
-        </tr>
-      </tbody>
-    </Table>
-    <Table striped responsive="xl">
-      <thead>
-        <tr>
-          <th colSpan="11" style={{ fontSize: '24px' }}>Research</th>
-          <th colSpan="2" style={{ fontSize: '20px', verticalAlign: 'bottom' }}>Director: Justin</th>
-        </tr>
-      </thead>
-      <tbody className="border">
-        <tr>
-          <td />
-          <td width="7%">Eliya<br />(R4)</td>
-          <td width="7%">Cam<br />(R4)</td>
-          <td width="7%">Bodie<br />(R4)</td>
-          <td width="7%">Justin<br />(R4)</td>
-          <td width="7%">Daniel<br />(R4)</td>
-          <td width="7%">Andee<br />(R4)</td>
-          <td width="7%">John<br />(R4)</td>
-          <td width="7%">Chase<br />(R4)</td>
-          <td width="7%">Arthur<br />(4)</td>
-          <td width="7%">Edward<br />(4)</td>
-          <td width="7%">Joshua<br />(3)</td>
-          <td width="7%">AJ<br />(3)</td>
-        </tr>
-        <tr>
-          <td>ML Curriculum</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>Lead</td>
-          <td>Assistant</td>
-          <td>-</td>
-          <td>Assistant</td>
-          <td>-</td>
-          <td>-</td>
-        </tr>
-        <tr>
-          <td>HCI</td>
-          <td>-</td>
-          <td>-</td>
-          <td>Lead</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>Assistant</td>
-          <td>Assistant</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-        </tr>
-        <tr>
-          <td>Database</td>
-          <td>-</td>
-          <td>-</td>
-          <td>Lead</td>
-          <td>Assistant</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-        </tr>
-        <tr>
-          <td>Red Team/SEL</td>
-          <td>-</td>
-          <td>Assistant</td>
-          <td>-</td>
-          <td>Lead</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>Assistant</td>
-          <td>-</td>
-          <td>-</td>
-        </tr>
-        <tr>
-          <td>Log Stash</td>
-          <td>-</td>
-          <td>-</td>
-          <td>Assistant</td>
-          <td>-</td>
-          <td>-</td>
-          <td>Lead</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>Assistant</td>
-          <td>Assistant</td>
-        </tr>
-      </tbody>
-    </Table>
-  </Container>
-);
+const Team = () => {
+  const [error, setError] = useState(null);
+  const [isLoaded, setIsLoaded] = useState(false);
+  const [items, setItems] = useState([]);
+
+  useEffect(() => {
+    fetch('https://sheets.googleapis.com/v4/spreadsheets/19uHAJYPDpXzMhz6kOr7Kw-wMmjW28H0rBErGegDYUY4/values/Work%20Teams!B3:N13?valueRenderOption=FORMATTED_VALUE&key=AIzaSyAtUB_NkoudBNBzr1Zyd967cQBtWXHnMuo')
+      .then(res => res.json())
+      .then(
+        (result) => {
+          const values = Object.values(result.values);
+          values.forEach(row => row.push(...(new Array(values[0].length - row.length).fill(''))));
+          setIsLoaded(true);
+          setItems(values);
+        },
+        (e) => {
+          setIsLoaded(true);
+          setError(e);
+        },
+      );
+  }, []);
+
+  if (error) {
+    return (
+      <Container className="py-3">
+        <h3>Error: {error.message}</h3>
+      </Container>
+    );
+  }
+
+  if (!isLoaded) {
+    return (
+      <Container className="py-3">
+        <h3>Loading...</h3>
+      </Container>
+    );
+  }
+
+  return (
+    <Container className="py-3">
+      <h1>In-Class Work Teams</h1>
+      <p style={{ fontSize: '18px' }}>
+        This table displays the members and the jobs they are responsible for.
+      </p>
+      <Row className="align-items-end pt-3">
+        <Col>
+          <h3>Operations</h3>
+        </Col>
+        <Col>
+          <h5 className="text-end">Director: John</h5>
+        </Col>
+      </Row>
+      <Table striped bordered responsive="xl">
+        <thead>
+          <tr>
+            {items[0].map(item => (
+              <th style={{ minWidth: '84px' }}>{parse(item.replaceAll('\n', '<br />'))}</th>
+            ))}
+          </tr>
+        </thead>
+        <tbody>
+          {items.slice(1, 6).map(row => (
+            <tr>
+              {row.map(item => (
+                <td>{item}</td>
+              ))}
+            </tr>
+          ))}
+        </tbody>
+      </Table>
+      <Row className="align-items-end pt-3">
+        <Col>
+          <h3>Research</h3>
+        </Col>
+        <Col>
+          <h5 className="text-end">Director: Justin</h5>
+        </Col>
+      </Row>
+      <Table striped bordered responsive="xl">
+        <thead>
+          <tr>
+            {items[0].map(item => (
+              <th style={{ minWidth: '84px' }}>{parse(item.replaceAll('\n', '<br />'))}</th>
+            ))}
+          </tr>
+        </thead>
+        <tbody>
+          {items.slice(6).map(row => (
+            <tr>
+              {row.map(item => (
+                <td>{item}</td>
+              ))}
+            </tr>
+          ))}
+        </tbody>
+      </Table>
+    </Container>
+  );
+};
 
 export default Team;
