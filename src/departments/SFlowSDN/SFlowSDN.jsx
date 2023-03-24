@@ -184,9 +184,7 @@ const SFlowSDN = () => (
           <td>Chase</td>
           <td>
             I came into SCADA early today (12:00 PM). I put &quot;class&quot; into all of our parsing
-            functions except for &quot;icmpv6.py&quot;. Then I have to put all of them into our main parser. Then I
-            will ask Mark what he task he wants us to do next. I assume we&apos;ll have to tell our parser to
-            record the parsed data into a database.
+            functions except for &quot;icmpv6.py&quot;. Then I have to put all of them into our main parser. Then I will ask Mark what he task he wants us to do next. I assume we&apos;ll have to tell our parser to record the parsed data into a database.
           </td>
           <td>2/28/2023</td>
         </tr>
@@ -194,6 +192,11 @@ const SFlowSDN = () => (
           <td>Chase</td>
           <td>The parser is complete. The last thing I added was a packet parser for ICMPv6. I just have to verify that it completely parses all the information we want without any errors. It&apos;s possible that there are some unprecedented sampled packet headers for which I have to code. But if there are no errors the code should be complete. </td>
           <td>3/21/2023</td>
+        </tr>
+        <tr>
+          <td>Chase</td>
+          <td>Andy and I are trying to test everything by taking parsed files from wireshark and putting it into a text file. We do that by copying the entire sFlow packet into a Hex Stream. Then we use the &quot;bytes.fromhex&apos;&apos; function to convert it to a hex file that can be read by our parser. We can also search for specific sample headers in the filter bar on Wireshark.</td>
+          <td>3/23/2023</td>
         </tr>
       </tbody>
     </Table>
