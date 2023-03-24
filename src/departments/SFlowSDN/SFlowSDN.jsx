@@ -190,6 +190,11 @@ const SFlowSDN = () => (
           </td>
           <td>2/28/2023</td>
         </tr>
+        <tr>
+          <td>Chase</td>
+          <td>The parser is complete. The last thing I added was a packet parser for ICMPv6. I just have to verify that it completely parses all the information we want without any errors. It&apos;s possible that there are some unprecedented sampled packet headers for which I have to code. But if there are no errors the code should be complete. </td>
+          <td>3/21/2023</td>
+        </tr>
       </tbody>
     </Table>
     <hr />
