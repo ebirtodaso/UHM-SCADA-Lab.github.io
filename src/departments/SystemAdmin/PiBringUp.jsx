@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const PiBringUp = () => (
   <span>
@@ -31,7 +32,7 @@ const PiBringUp = () => (
       </ol>
       <li>Stick SD card into Pi</li>
       <li>
-        <a href="https://www.raspberrypi.com/software/">Tutorial to Image SD Card</a>
+        <Link to="https://www.raspberrypi.com/software/">Tutorial to Image SD Card</Link>
       </li>
     </ol>
     <h3>Pi Bring Up (By Cloning)</h3>
@@ -63,7 +64,7 @@ const PiBringUp = () => (
         <li>sudo rpi-clone sda # replace sda here with your device name</li>
       </ol>
       <li>
-        <a href="https://gist.github.com/avoidik/d8fc39a372db680090edd5322d60848f">Tutorial to Migrate Pi from SD to Flash Drive</a>
+        <Link to="https://gist.github.com/avoidik/d8fc39a372db680090edd5322d60848f">Tutorial to Migrate Pi from SD to Flash Drive</Link>
       </li>
     </ol>
     <h3>Pi Bring Up (From Scratch)</h3>
@@ -119,7 +120,7 @@ const PiBringUp = () => (
         <li>$ sudo shutdown -r 0</li>
       </ol>
       <li>
-        <a href="https://www.tomshardware.com/how-to/raspberry-pi-change-hostname">Tutorial to Change Hostname</a>
+        <Link to="https://www.tomshardware.com/how-to/raspberry-pi-change-hostname">Tutorial to Change Hostname</Link>
       </li>
     </ol>
     <h3>Legacy Instructions</h3>

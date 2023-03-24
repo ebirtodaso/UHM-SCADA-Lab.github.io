@@ -195,7 +195,7 @@ const RYUExample = () => {
         </Offcanvas.Header>
         <Offcanvas.Body>
           <h3>Breakdown of Program</h3>
-          <a href="https://github.com/faucetsdn/ryu/blob/master/ryu/app/simple_switch_13.py">Source of Example Program</a>
+          <Link to="https://github.com/faucetsdn/ryu/blob/master/ryu/app/simple_switch_13.py">Source of Example Program</Link>
           <h3>Code Setup</h3>
           <pre className="border">{codeSetup}</pre>
           <h3>Handshake Between Switch and Ryu Controller</h3>

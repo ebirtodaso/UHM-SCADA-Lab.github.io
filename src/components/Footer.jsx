@@ -1,6 +1,7 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { Discord, Github, Linkedin } from 'react-bootstrap-icons';
+import { Link } from 'react-router-dom';
 
 /* The Footer appears at the bottom of every page. Rendered by the App Layout component. */
 const Footer = () => (
@@ -8,12 +9,12 @@ const Footer = () => (
     <Container>
       <Row>
         <Col>
-          <a className="pe-3" href="https://manoa.hawaii.edu/">
+          <Link className="pe-3" to="https://manoa.hawaii.edu/">
             <img src="/images/Logos/UHM_Seal.png" width="100px" alt="UHM Seal" />
-          </a>
-          <a href="https://ee.hawaii.edu/home/">
+          </Link>
+          <Link to="https://ee.hawaii.edu/home/">
             <img src="/images/Logos/COE_Seal.svg" width="100px" alt="COE Seal" />
-          </a>
+          </Link>
         </Col>
         <Col className="text-white">
           University of Hawaiʻi at Mānoa <br />
@@ -23,9 +24,9 @@ const Footer = () => (
         </Col>
         <Col className="text-white">
           SCADA Lab 2023 <hr />
-          <a className="footer-link" href="https://github.com/UHM-SCADA-Lab/UHM-SCADA-Lab.github.io"><Github /></a>
-          <a className="footer-link" href="https://discord.gg/ptPvf9etBh"><Discord /></a>
-          <a className="footer-link" href="https://www.linkedin.com/"><Linkedin /></a>
+          <Link className="footer-link" to="https://github.com/UHM-SCADA-Lab/UHM-SCADA-Lab.github.io"><Github /></Link>
+          <Link className="footer-link" to="https://discord.gg/ptPvf9etBh"><Discord /></Link>
+          <Link className="footer-link" to="https://www.linkedin.com/"><Linkedin /></Link>
         </Col>
       </Row>
     </Container>

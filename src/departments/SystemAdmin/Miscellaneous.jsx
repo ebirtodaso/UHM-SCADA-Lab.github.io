@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import PiAPI from './PiAPI';
 import LaunchingCommands from './LaunchingCommands';
 
@@ -23,7 +24,7 @@ const Miscellaneous = () => (
       </ul>
       <li>Restart service service systemd-timesyncd stop service systemd-timesyncd start</li>
       <li>
-        <a href="https://wiki.debian.org/Bind9#Introduction">Tutorial on Bind9</a>
+        <Link to="https://wiki.debian.org/Bind9#Introduction">Tutorial on Bind9</Link>
       </li>
     </ol>
     <h3>Useful Links</h3>
@@ -38,10 +39,10 @@ const Miscellaneous = () => (
         <LaunchingCommands />
       </li>
       <li>
-        <a href="https://www.raspberrypi.com/">Raspberry Pi Homepage</a>
+        <Link to="https://www.raspberrypi.com/">Raspberry Pi Homepage</Link>
       </li>
       <li>
-        <a href="https://www.raspberrypi.com/documentation/">Raspberry Pi Documentation</a>
+        <Link to="https://www.raspberrypi.com/documentation/">Raspberry Pi Documentation</Link>
       </li>
     </ul>
   </span>

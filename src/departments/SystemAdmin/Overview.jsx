@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Col, Row } from 'react-bootstrap';
 
 const Overview = () => (
@@ -57,10 +58,10 @@ const Overview = () => (
       </ul>
       <li>$ function &gt; textfile.txt stores function&apos;s console output to a textfile textfile.txt</li>
       <li>
-        <a href="https://www.raspberrypi.com/">Raspberry Pi Homepage</a>
+        <Link to="https://www.raspberrypi.com/">Raspberry Pi Homepage</Link>
       </li>
       <li>
-        <a href="https://www.raspberrypi.com/documentation/">Raspberry Pi Documentation</a>
+        <Link to="https://www.raspberrypi.com/documentation/">Raspberry Pi Documentation</Link>
       </li>
     </ul>
     <h3>Setting Static IP - NEEDS TO BE UPDATED</h3>

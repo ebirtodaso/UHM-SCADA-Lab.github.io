@@ -1,5 +1,6 @@
 import React from 'react';
 import { Col, Container, Row, Table } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import SDNSetup from './SDNSetup';
 import RYUNotes from './RYUNotes';
 
@@ -22,38 +23,38 @@ const SFlowSDN = () => (
     <Row>
       <Col>
         <ul>
-          <li><a href="src/departments/SFlowSDN/SFlowSDN#:~:text=to%20sFlow%20Collection-,What%20is%20an%20sFlow%20Collector%3F,probes%20and%20other%20network%20devices.">Components of sFlow Analysis</a></li>
-          <li><a href="src/departments/SFlowSDN/SFlowSDN#:~:text=sFlow%C2%AE%20is%20an%20industry,and%20defense%20against%20security%20threats.">sFlow Organization Home Page</a></li>
-          <li><a href="https://en.wikipedia.org/wiki/SFlow">sFlow Description</a></li>
-          <li><a href="https://blog.sflow.com/2016/06/raspberry-pi-real-time-network-analytics.html">Setting up sFlow on Raspberry Pi</a></li>
-          <li><a href="https://www.youtube.com/watch?v=VQEQp5PR86k">Accessing a Switch via CLI</a></li>
-          <li><a href="https://techhub.hpe.com/eginfolib/networking/docs/switches/K-KA-KB/15-18/5998-8160_ssw_mcg/content/ch06s09.html">Configuring sFlow for Network Switch</a></li>
-          <li><a href="https://en.wikipedia.org/wiki/External_Data_Representation">XDR Description</a></li>
-          <li><a href="src/departments/SFlowSDN/SFlowSDN">UDP Client and Server Code (Python)</a></li>
-          <li><a href="https://github.com/auspex-labs/sflow-collector">sFlow Collector Reference Code (Python)</a></li>
-          <li><a href="https://inmon.com/technology/sflowTools.php">sFlow toolkit</a></li>
+          <li><Link to="https://www.kentik.com/kentipedia/sflow-collector/#:~:text=to%20sFlow%20Collection-,What%20is%20an%20sFlow%20Collector%3F,probes%20and%20other%20network%20devices.">Components of sFlow Analysis</Link></li>
+          <li><Link to="https://sflow.org/#:~:text=sFlow%C2%AE%20is%20an%20industry,and%20defense%20against%20security%20threats.">sFlow Organization Home Page</Link></li>
+          <li><Link to="https://en.wikipedia.org/wiki/SFlow">sFlow Description</Link></li>
+          <li><Link to="https://blog.sflow.com/2016/06/raspberry-pi-real-time-network-analytics.html">Setting up sFlow on Raspberry Pi</Link></li>
+          <li><Link to="https://www.youtube.com/watch?v=VQEQp5PR86k">Accessing a Switch via CLI</Link></li>
+          <li><Link to="https://techhub.hpe.com/eginfolib/networking/docs/switches/K-KA-KB/15-18/5998-8160_ssw_mcg/content/ch06s09.html">Configuring sFlow for Network Switch</Link></li>
+          <li><Link to="https://en.wikipedia.org/wiki/External_Data_Representation">XDR Description</Link></li>
+          <li><Link to="https://linuxhint.com/send_receive_udp_python/">UDP Client and Server Code (Python)</Link></li>
+          <li><Link to="https://github.com/auspex-labs/sflow-collector">sFlow Collector Reference Code (Python)</Link></li>
+          <li><Link to="https://inmon.com/technology/sflowTools.php">sFlow toolkit</Link></li>
         </ul>
       </Col>
       <Col>
         <ul>
-          <li><a href="https://inmon.com/products/sFlowTrend/help/html/introduction.gettingStarted.html">sFlowTrend Tutorial</a></li>
-          <li><a href="https://inmon.com/products/sFlowTrend.php">sFlowTrend Download</a></li>
-          <li><a href="https://www.computerhope.com/unix/nc.htm">Netcat Linux Command Help</a></li>
-          <li><a href="https://blog.sflow.com/2016/05/mininet-flow-analytics.html">Mininet Flow Analytics</a></li>
-          <li><a href="https://docs.python.org/3/library/xdrlib.html">Encode/Decode XDR Files</a></li>
-          <li><a href="https://unix.stackexchange.com/questions/106480/how-to-copy-files-from-one-machine-to-another-using-ssh">Transferring files between systems</a></li>
-          <li><a href="src/departments/SFlowSDN/SFlowSDN">Hexdump</a></li>
-          <li><a href="https://en.wikipedia.org/wiki/Ethernet_frame#Ethernet_II">Ethernet II</a></li>
-          <li><a href="https://en.wikipedia.org/wiki/IPv4#Header">IPv4</a></li>
+          <li><Link to="https://inmon.com/products/sFlowTrend/help/html/introduction.gettingStarted.html">sFlowTrend Tutorial</Link></li>
+          <li><Link to="https://inmon.com/products/sFlowTrend.php">sFlowTrend Download</Link></li>
+          <li><Link to="https://www.computerhope.com/unix/nc.htm">Netcat Linux Command Help</Link></li>
+          <li><Link to="https://blog.sflow.com/2016/05/mininet-flow-analytics.html">Mininet Flow Analytics</Link></li>
+          <li><Link to="https://docs.python.org/3/library/xdrlib.html">Encode/Decode XDR Files</Link></li>
+          <li><Link to="https://unix.stackexchange.com/questions/106480/how-to-copy-files-from-one-machine-to-another-using-ssh">Transferring files between systems</Link></li>
+          <li><Link to="https://pypi.org/project/hexdump/">Hexdump</Link></li>
+          <li><Link to="https://en.wikipedia.org/wiki/Ethernet_frame#Ethernet_II">Ethernet II</Link></li>
+          <li><Link to="https://en.wikipedia.org/wiki/IPv4#Header">IPv4</Link></li>
         </ul>
       </Col>
     </Row>
     <h4 className="pt-4">Resources</h4>
     <ul>
-      <li><a href="https://blog.sflow.com/2016/06/raspberry-pi-real-time-network-analytics.html">Raspberry Pi Real Time Network Analytics</a></li>
-      <li><a href="src/departments/SFlowSDN/SFlowSDN#:~:text=sFlow%C2%AE%20is%20an%20industry,and%20defense%20against%20security%20threats.">sFlow Security Threats</a></li>
-      <li><a href="https://techhub.hpe.com/eginafolib/networking/docs/switches/K-KA-KB/15-18/5998-8160_ssw_mcg/content/ch06s09.html">Networking Switches</a></li>
-      <li><a href="https://www.youtube.com/watch?v=VQEQp5PR86k">sFlow Youtube Video</a></li>
+      <li><Link to="https://blog.sflow.com/2016/06/raspberry-pi-real-time-network-analytics.html">Raspberry Pi Real Time Network Analytics</Link></li>
+      <li><Link to="https://sflow.org/#:~:text=sFlow%C2%AE%20is%20an%20industry,and%20defense%20against%20security%20threats.">sFlow Security Threats</Link></li>
+      <li><Link to="https://techhub.hpe.com/eginafolib/networking/docs/switches/K-KA-KB/15-18/5998-8160_ssw_mcg/content/ch06s09.html">Networking Switches</Link></li>
+      <li><Link to="https://www.youtube.com/watch?v=VQEQp5PR86k">sFlow Youtube Video</Link></li>
     </ul>
     <h4 className="pt-4">Tasks</h4>
     <Table striped bordered>
@@ -194,13 +195,13 @@ const SFlowSDN = () => (
     <hr />
     <h2>SDN</h2>
     <h4>Overview</h4>
-    <p>An SDN is a <a href="https://www.youtube.com/watch?v=Z5Gi2Bpd82M">Software Defined Network</a>. An SDN Controller is how we dictate how it behaves.</p>
+    <p>An SDN is a <Link to="https://www.youtube.com/watch?v=Z5Gi2Bpd82M">Software Defined Network</Link>. An SDN Controller is how we dictate how it behaves.</p>
     <h4 className="pt-4">Helpful Links</h4>
     <ul>
-      <li><a href="https://en.wikipedia.org/wiki/OpenFlow">Openflow Explanation</a></li>
-      <li><a href="https://en.wikipedia.org/wiki/Software-defined_networking">SDN Explanation</a></li>
-      <li><a href="src/departments/SFlowSDN/SFlowSDN">Open Networking Explanation</a></li>
-      <li><a href="https://en.wikipedia.org/wiki/List_of_SDN_controller_software">List of SDN Platforms</a></li>
+      <li><Link to="https://en.wikipedia.org/wiki/OpenFlow">Openflow Explanation</Link></li>
+      <li><Link to="https://en.wikipedia.org/wiki/Software-defined_networking">SDN Explanation</Link></li>
+      <li><Link to="https://opennetworking.org/">Open Networking Explanation</Link></li>
+      <li><Link to="https://en.wikipedia.org/wiki/List_of_SDN_controller_software">List of SDN Platforms</Link></li>
       <li><SDNSetup /></li>
     </ul>
     <h4 className="pt-4">Currently Using</h4>
@@ -223,13 +224,13 @@ const SFlowSDN = () => (
       </thead>
       <tbody>
         <tr>
-          <td><a href="https://ryu-sdn.org/sdn_sflow.html">RYU Controller</a></td>
+          <td><Link to="https://ryu-sdn.org/sdn_sflow.html">RYU Controller</Link></td>
           <td>Active - Release 4.34</td>
           <td>Ubuntu (16.04 LTS or later)</td>
           <td>N/A</td>
           <td>Apache 2.0</td>
           <td>Python</td>
-          <td><a href="https://github.com/faucetsdn/ryu">Download</a></td>
+          <td><Link to="https://github.com/faucetsdn/ryu">Download</Link></td>
           <td><RYUNotes /></td>
           <td>Static IP Address 10.1.88.3</td>
           <td>Eliya/John</td>
@@ -254,73 +255,73 @@ const SFlowSDN = () => (
       </thead>
       <tbody>
         <tr>
-          <td><a href="https://floodlight.atlassian.net/wiki/spaces/Beacon/overview?homepageId=1769491">Beacon</a></td>
+          <td><Link to="https://floodlight.atlassian.net/wiki/spaces/Beacon/overview?homepageId=1769491">Beacon</Link></td>
           <td>Defunct</td>
           <td>Anything that Java runs on</td>
           <td>N/A</td>
           <td>Apache 2.0</td>
           <td>Java</td>
-          <td><a href="https://beacon-opensource.bigswitch.com.s3.amazonaws.com/etc/manifest.html">Download</a></td>
+          <td><Link to="https://beacon-opensource.bigswitch.com.s3.amazonaws.com/etc/manifest.html">Download</Link></td>
           <td>Defunct/Development moved to Floodlight Controller</td>
         </tr>
         <tr>
-          <td><a href="https://faucet.nz/">Faucet</a></td>
+          <td><Link to="https://faucet.nz/">Faucet</Link></td>
           <td>Active-1.10.1</td>
           <td>Debian 10+, Raspbian 10+, Raspberry Pi OS 11+, Ubuntu 18.04+, Docker, Pip</td>
           <td>Valve/Ryu OpenFlow Controller</td>
           <td>Apache 2.0</td>
           <td>Python</td>
-          <td><a href="https://docs.faucet.nz/en/latest/tutorials/first_time.html">Download</a></td>
+          <td><Link to="https://docs.faucet.nz/en/latest/tutorials/first_time.html">Download</Link></td>
           <td>-</td>
         </tr>
         <tr>
-          <td><a href="https://support.hpe.com/hpesc/public/docDisplay?docId=emr_na-c03967699#N10229">HPE VAN</a></td>
+          <td><Link to="https://support.hpe.com/hpesc/public/docDisplay?docId=emr_na-c03967699#N10229">HPE VAN</Link></td>
           <td>Active</td>
           <td>Ubuntu</td>
           <td>HP</td>
           <td>-</td>
           <td>-</td>
-          <td><a href="https://support.hpe.com/hpesc/public/docDisplay?docId=emr_na-c03967699#N10229">Download</a></td>
+          <td><Link to="https://support.hpe.com/hpesc/public/docDisplay?docId=emr_na-c03967699#N10229">Download</Link></td>
           <td>Requires 64 GB of storage</td>
         </tr>
         <tr>
-          <td><a href="https://github.com/noxrepo/nox">NOX</a></td>
+          <td><Link to="https://github.com/noxrepo/nox">NOX</Link></td>
           <td>Defunct Feb 2014</td>
           <td>Linux/Mac OS/Windows</td>
           <td>OpenFlow</td>
           <td>GNU Public License</td>
           <td>C++/CSS/C/Python/Shell/Perl</td>
-          <td><a href="https://github.com/noxrepo/nox/archive/refs/heads/verity.zip">Download</a></td>
+          <td><Link to="https://github.com/noxrepo/nox/archive/refs/heads/verity.zip">Download</Link></td>
           <td>Does not support Openflow V1.3</td>
         </tr>
         <tr>
-          <td><a href="https://docs.opendaylight.org/en/stable-sodium/#getting-started-with-opendaylight">OpenDaylight</a></td>
+          <td><Link to="https://docs.opendaylight.org/en/stable-sodium/#getting-started-with-opendaylight">OpenDaylight</Link></td>
           <td>Active-15.0.0</td>
           <td>Apache Maven 3.5.2 or later,Linux,Windows</td>
           <td>YANG Tools, NETCONF, and MD-SAL</td>
           <td>Eclipse Public License 1.0</td>
           <td>Java</td>
-          <td><a href="https://docs.opendaylight.org/en/latest/downloads.html">Download</a></td>
+          <td><Link to="https://docs.opendaylight.org/en/latest/downloads.html">Download</Link></td>
           <td>Lighty-Core is a more specialized version in line with our wanted use</td>
         </tr>
         <tr>
-          <td><a href="https://www.open-kilda.org/">OpenKilda</a></td>
+          <td><Link to="https://www.open-kilda.org/">OpenKilda</Link></td>
           <td>Active-v1.112.0</td>
           <td>Ubuntu 18.04, Ubuntu 20.04</td>
           <td>N/A</td>
           <td>Apache 2.0</td>
           <td>Python/Java</td>
-          <td><a href="https://docs.open-kilda.org/xwiki/bin/view/Installation%20Guide%20-%20v1.1.11.27%20%28November%202018%29/">Download</a><a href="https://github.com/telstra/open-kilda">Github</a></td>
+          <td><Link to="https://docs.open-kilda.org/xwiki/bin/view/Installation%20Guide%20-%20v1.1.11.27%20%28November%202018%29/">Download</Link><Link to="https://github.com/telstra/open-kilda">Github</Link></td>
           <td>Requires 256GB of storage</td>
         </tr>
         <tr>
-          <td><a href="https://www.openvswitch.org/">Open vSwitch</a></td>
+          <td><Link to="https://www.openvswitch.org/">Open vSwitch</Link></td>
           <td>Active- current:2.16.2 LTS:2.13.6</td>
           <td>Linux, Hyper-V, FreeBSD and NetBSD</td>
           <td>N/A</td>
           <td>Apache 2.0</td>
           <td>C</td>
-          <td><a href="https://www.openvswitch.org/download/">Download</a></td>
+          <td><Link to="https://www.openvswitch.org/download/">Download</Link></td>
           <td>We are using a physical switch, not virtual.</td>
         </tr>
         <tr>
@@ -330,7 +331,7 @@ const SFlowSDN = () => (
           <td>OpenFlow</td>
           <td>Apache 2.0</td>
           <td>C++/Python</td>
-          <td><a href="https://github.com/noxrepo/pox/archive/refs/heads/gar-experimental.zip">Download</a></td>
+          <td><Link to="https://github.com/noxrepo/pox/archive/refs/heads/gar-experimental.zip">Download</Link></td>
           <td>Does not support Openflow V1.3.</td>
         </tr>
         <tr>
@@ -344,33 +345,33 @@ const SFlowSDN = () => (
           <td>Operates in a different layer than Openflow</td>
         </tr>
         <tr>
-          <td><a href="https://arccn.github.io/runos/docs-2.0/eng/00_RUNOS_Overview.html">RUNOS</a></td>
+          <td><Link to="https://arccn.github.io/runos/docs-2.0/eng/00_RUNOS_Overview.html">RUNOS</Link></td>
           <td>Active-2.0</td>
           <td>Ubuntu 18.04 or Higher</td>
           <td>REST / OpenFlow</td>
           <td>Apache 2.0</td>
           <td>C / C++ / JS / CMake / CSS / Nix</td>
-          <td><a href="https://arccn.github.io/runos/docs-2.0/eng/01_RUNOS_Downloads.html">Download</a></td>
+          <td><Link to="https://arccn.github.io/runos/docs-2.0/eng/01_RUNOS_Downloads.html">Download</Link></td>
           <td>Cannot easily run on a raspberry PI</td>
         </tr>
         <tr>
-          <td><a href="https://selinc.com/products/5056/">SEL-5056</a></td>
+          <td><Link to="https://selinc.com/products/5056/">SEL-5056</Link></td>
           <td>Active</td>
           <td>Windows</td>
           <td>-</td>
           <td>-</td>
           <td>-</td>
-          <td><a href="https://selinc.com/products/5056/">Download</a></td>
+          <td><Link to="https://selinc.com/products/5056/">Download</Link></td>
           <td>Windows only</td>
         </tr>
         <tr>
-          <td><a href="https://fd.io/">The Fast Data Project (FD.io)</a></td>
+          <td><Link to="https://fd.io/">The Fast Data Project (FD.io)</Link></td>
           <td>Active v.21.10.1</td>
           <td>Linux/Arm, x86, Power</td>
           <td>3rd Gen US Patent 7,961,636</td>
           <td>Apache 2.0</td>
           <td>-</td>
-          <td><a href="https://fd.io/gettingstarted/installing/">Download</a></td>
+          <td><Link to="https://fd.io/gettingstarted/installing/">Download</Link></td>
           <td>Cannot easily run on a raspberry PI</td>
         </tr>
         <tr>
@@ -380,17 +381,17 @@ const SFlowSDN = () => (
           <td>OpenContrail</td>
           <td>Apache 2.0</td>
           <td>Python/c++/Node/Go</td>
-          <td><a href="https://tungsten.io/start/">Download</a></td>
+          <td><Link to="https://tungsten.io/start/">Download</Link></td>
           <td>Requires 50+GB of storage</td>
         </tr>
         <tr>
-          <td><a href="https://github.com/vneio/sdnc">vneio/sdnc</a></td>
+          <td><Link to="https://github.com/vneio/sdnc">vneio/sdnc</Link></td>
           <td>Defunct Apr 2016</td>
           <td>BASH</td>
           <td>Intel DPDK technology</td>
           <td>-</td>
           <td>BASH Script</td>
-          <td><a href="https://github.com/vneio/sdnc">Download</a></td>
+          <td><Link to="https://github.com/vneio/sdnc">Download</Link></td>
           <td>Written in shell, no documentation, requires docker</td>
         </tr>
       </tbody>
@@ -415,27 +416,27 @@ const SFlowSDN = () => (
       </thead>
       <tbody>
         <tr>
-          <td><a href="https://githubhelp.com/superkkt/cherry">Cherry</a></td>
+          <td><Link to="https://githubhelp.com/superkkt/cherry">Cherry</Link></td>
           <td>Active 0.14.2</td>
           <td>Windows/OS/Linux</td>
           <td>N/A</td>
           <td>GPL-2.0</td>
           <td>Go</td>
-          <td><a href="https://docs.docker.com/installation/">Docker</a><a href="https://golang.org/doc/install">Go Language</a></td>
-          <td><a>-</a></td>
+          <td><Link to="https://docs.docker.com/installation/">Docker</Link><Link to="https://golang.org/doc/install">Go Language</Link></td>
+          <td>-</td>
           <td>-</td>
           <td>-</td>
           <td>-</td>
           <td>Not well documented, requires a MySQL database, written in Go</td>
         </tr>
         <tr>
-          <td><a href="https://floodlight.atlassian.net/wiki/spaces/floodlightcontroller/overview">Floodlight</a></td>
+          <td><Link to="https://floodlight.atlassian.net/wiki/spaces/floodlightcontroller/overview">Floodlight</Link></td>
           <td>Active-1.2</td>
           <td>Linux, Mac OS X 10.6 or higher, Windows</td>
           <td>OpenFlow</td>
           <td>Apache 2.0</td>
           <td>Java</td>
-          <td><a href="https://github.com/floodlight/floodlight">Download</a></td>
+          <td><Link to="https://github.com/floodlight/floodlight">Download</Link></td>
           <td>-</td>
           <td>-</td>
           <td>-</td>
@@ -443,13 +444,13 @@ const SFlowSDN = () => (
           <td>Written in Java</td>
         </tr>
         <tr>
-          <td><a href="https://lighty.io/">Lighty-Core (lighty.io)</a></td>
+          <td><Link to="https://lighty.io/">Lighty-Core (lighty.io)</Link></td>
           <td>Active - 15.2.0</td>
           <td>Can run on Linux</td>
           <td>OpenDaylight</td>
           <td>EPL 1.0</td>
           <td>Java</td>
-          <td><a href="https://github.com/PANTHEONtech/lighty">Download</a></td>
+          <td><Link to="https://github.com/PANTHEONtech/lighty">Download</Link></td>
           <td>-</td>
           <td>-</td>
           <td>Chase</td>
@@ -457,7 +458,7 @@ const SFlowSDN = () => (
           <td>Written in JAVA, okay documentation (does not seem entry level)</td>
         </tr>
         <tr>
-          <td><a href="https://wiki.onosproject.org/display/ONOS/">ONOS</a></td>
+          <td><Link to="https://wiki.onosproject.org/display/ONOS/">ONOS</Link></td>
           <td>-</td>
           <td>-</td>
           <td>-</td>

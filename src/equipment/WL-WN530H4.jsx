@@ -46,8 +46,8 @@ const WLWN530H4 = () => {
           </Table>
           <h3>Device Links</h3>
           <ul>
-            <li><a href="https://www.wavlink.com/en_us/index.html" target="_blank" rel="noreferrer">Manufacturer&apos;s Website</a></li>
-            <li><a href="https://www.wavlink.com/en_us/product/WL-WN530H4.html" target="_blank" rel="noreferrer">Product</a></li>
+            <li><Link to="https://www.wavlink.com/en_us/index.html" target="_blank" rel="noreferrer">Manufacturer&apos;s Website</Link></li>
+            <li><Link to="https://www.wavlink.com/en_us/product/WL-WN530H4.html" target="_blank" rel="noreferrer">Product</Link></li>
             <li><a href="/pdfs/WN530H4-Manual.pdf" target="_blank" rel="noreferrer">Manual</a></li>
           </ul>
           <h3>Network Configuration</h3>
@@ -166,14 +166,14 @@ const WLWN530H4 = () => {
           <ul>
             <li>Only accounts with UH Emails may access</li>
             <li>
-              <a href="https://docs.google.com/drawings/d/1Jd3nHqqYbsNkVwAQvhZ5zCrwgf0yuxxAtxjIsT0l_fY/edit">Network Map</a>
+              <Link to="https://docs.google.com/drawings/d/1Jd3nHqqYbsNkVwAQvhZ5zCrwgf0yuxxAtxjIsT0l_fY/edit">Network Map</Link>
             </li>
           </ul>
           <h3>Switch Ports/VLANs</h3>
           <ul>
             <li>Only accounts with UH Emails may access</li>
             <li>
-              <a href="https://docs.google.com/spreadsheets/d/1fkD1ihLW496p8tQhlRT4OwzG7a3ZOo4inUt4FP8itMg/edit#gid=0">Switch Ports/IPs/VLANs</a>
+              <Link to="https://docs.google.com/spreadsheets/d/1fkD1ihLW496p8tQhlRT4OwzG7a3ZOo4inUt4FP8itMg/edit#gid=0">Switch Ports/IPs/VLANs</Link>
             </li>
           </ul>
         </Offcanvas.Body>

@@ -24,14 +24,14 @@ const HP292024G = () => {
           <ul>
             <li><a href="/pdfs/HP292024G-Admin_Guide.pdf">HP OpenFlow Administrator Guide</a></li>
             <li><a href="/WB_16_10_0019.swi">WB_16_10_0019.swi</a></li>
-            <li><a href="https://support.hpe.com/connect/s/product?ismnp=1&l5oid=5354494&cep=on&kmpmoid=1009060829&tab=All&manualsAndGuidesFilter=66000014%2C66000036">Troubleshooting Manuals</a></li>
-            <li><a href="https://support.hpe.com/connect/s/product?ismnp=1&l5oid=5354494&cep=on&kmpmoid=1009060829&tab=All&manualsAndGuidesFilter=66000013%2C66000034">Setup/Install Manuals</a></li>
-            <li><a href="https://support.hpe.com/connect/s/product?ismnp=1&l5oid=5354494&cep=on&kmpmoid=1009060829&tab=All&manualsAndGuidesFilter=66000015%2C66000035">Management/Operations Manuals</a></li>
-            <li><a href="https://support.hpe.com/connect/s/product?ismnp=1&l5oid=5354494&cep=on&kmpmoid=1009060829&tab=All&manualsAndGuidesFilter=66000005">Overview/Compatibility Manuals</a></li>
-            <li><a href="https://support.hpe.com/connect/s/product?ismnp=1&l5oid=5354494&cep=on&kmpmoid=1009060829&tab=All&manualsAndGuidesFilter=6600000">Specifications</a></li>
-            <li><a href="https://support.hpe.com/connect/s/product?ismnp=1&l5oid=5354494&cep=on&kmpmoid=1009060829&tab=All&manualsAndGuidesFilter=66000010">FAQ</a></li>
-            <li><a href="https://support.hpe.com/connect/s/product?ismnp=1&l5oid=5354494&cep=on&kmpmoid=1009060829&tab=All&manualsAndGuidesFilter=66000006%2C66000033%2C66000008%2C66000004%2C66000002">Reference Documentation</a></li>
-            <li><a href="https://asp.arubanetworks.com/downloads;search=j9726a;fileTypes=SOFTWARE">Software Downloads</a></li>
+            <li><Link to="https://support.hpe.com/connect/s/product?ismnp=1&l5oid=5354494&cep=on&kmpmoid=1009060829&tab=All&manualsAndGuidesFilter=66000014%2C66000036">Troubleshooting Manuals</Link></li>
+            <li><Link to="https://support.hpe.com/connect/s/product?ismnp=1&l5oid=5354494&cep=on&kmpmoid=1009060829&tab=All&manualsAndGuidesFilter=66000013%2C66000034">Setup/Install Manuals</Link></li>
+            <li><Link to="https://support.hpe.com/connect/s/product?ismnp=1&l5oid=5354494&cep=on&kmpmoid=1009060829&tab=All&manualsAndGuidesFilter=66000015%2C66000035">Management/Operations Manuals</Link></li>
+            <li><Link to="https://support.hpe.com/connect/s/product?ismnp=1&l5oid=5354494&cep=on&kmpmoid=1009060829&tab=All&manualsAndGuidesFilter=66000005">Overview/Compatibility Manuals</Link></li>
+            <li><Link to="https://support.hpe.com/connect/s/product?ismnp=1&l5oid=5354494&cep=on&kmpmoid=1009060829&tab=All&manualsAndGuidesFilter=6600000">Specifications</Link></li>
+            <li><Link to="https://support.hpe.com/connect/s/product?ismnp=1&l5oid=5354494&cep=on&kmpmoid=1009060829&tab=All&manualsAndGuidesFilter=66000010">FAQ</Link></li>
+            <li><Link to="https://support.hpe.com/connect/s/product?ismnp=1&l5oid=5354494&cep=on&kmpmoid=1009060829&tab=All&manualsAndGuidesFilter=66000006%2C66000033%2C66000008%2C66000004%2C66000002">Reference Documentation</Link></li>
+            <li><Link to="https://asp.arubanetworks.com/downloads;search=j9726a;fileTypes=SOFTWARE">Software Downloads</Link></li>
           </ul>
           <h3>OpenFlow</h3>
           <p>An OpenFlow controller is configured on the switch under the OpenFlow context. Some configuration is global and other configuration is associated with an instance.</p>
@@ -40,8 +40,8 @@ const HP292024G = () => {
           <p>Up to three OpenFlow controllers control each OpenFlow instance and each generates OpenFlow commands and data flows between an OpenFlow switch and the controller.</p>
           <h3>Configuration</h3>
           <ul>
-            <li><a href="#">HP 2920-24G Current Configuration</a></li>
-            <li><a href="#">HP 2920-24G Default Configuration</a> - This can be compared with the current configuration to identify changes from default
+            <li><Link to="#">HP 2920-24G Current Configuration</Link></li>
+            <li><Link to="#">HP 2920-24G Default Configuration</Link> - This can be compared with the current configuration to identify changes from default
             </li>
           </ul>
           <h3>Useful Commands</h3>

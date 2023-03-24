@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const SELSetup = () => (
   <span>
@@ -25,11 +26,11 @@ const SELSetup = () => (
       <img style={{ width: '100%', maxWidth: '600px' }} src="/images/RedTeamSEL/setup7.png" alt="Setup 7" />
       <li>Access the 311B or the 451 using the command &quot;por&quot; followed by the port number of the device that was previously listed when we run &quot;who&quot;.</li>
       <img style={{ width: '100%', maxWidth: '600px' }} src="/images/RedTeamSEL/setup8.png" alt="Setup 8" />
-      <li>On 311B: Run the command &quot;PUL out101 5&quot; to CLOSE the OUTPUT 103 for 5 seconds. <a href="https://laulima.hawaii.edu/access/content/group/MAN.XLSEEX96mn.202310/Manuals/SEL-311%20B/311B%20Instruction%20Manual.pdf">(Review The Manual for more info. pg 601 for commands)</a></li>
+      <li>On 311B: Run the command &quot;PUL out101 5&quot; to CLOSE the OUTPUT 103 for 5 seconds. <Link to="https://laulima.hawaii.edu/access/content/group/MAN.XLSEEX96mn.202310/Manuals/SEL-311%20B/311B%20Instruction%20Manual.pdf">(Review The Manual for more info. pg 601 for commands)</Link></li>
       <ol>
         <li>Run the command &quot;PUL out103 5&quot; to OPEN the OUTPUT 103 for 5 seconds.</li>
       </ol>
-      <li>Run the command &quot;pulse out101 5&quot; to CLOSE the OUTPUT 103 for 5 seconds. <a href="https://laulima.hawaii.edu/access/content/group/MAN.XLSEEX96mn.202310/Manuals/SEL%20-%20451/SEL%20-%20451%20Factory%20Reset/sel451%20manual.pdf">(Review The Manual for more info)</a></li>
+      <li>Run the command &quot;pulse out101 5&quot; to CLOSE the OUTPUT 103 for 5 seconds. <Link to="https://laulima.hawaii.edu/access/content/group/MAN.XLSEEX96mn.202310/Manuals/SEL%20-%20451/SEL%20-%20451%20Factory%20Reset/sel451%20manual.pdf">(Review The Manual for more info)</Link></li>
       <ol>
         <li>Run the command &quot;pulse out103 5&quot; to OPEN the OUTPUT 103 for 5 seconds.</li>
       </ol>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Col, Container, Row, Table } from 'react-bootstrap';
 
 const Tasking = () => (
@@ -16,24 +17,24 @@ const Tasking = () => (
           </thead>
           <tbody>
             <tr>
-              <td><a href="https://github.com/orgs/UHM-SCADA-Lab/projects/3" target="_blank" rel="noreferrer">Network</a></td>
-              <td><a href="https://github.com/orgs/UHM-SCADA-Lab/projects/6" target="_blank" rel="noreferrer">ML Curricula</a></td>
+              <td><Link to="https://github.com/orgs/UHM-SCADA-Lab/projects/3" target="_blank" rel="noreferrer">Network</Link></td>
+              <td><Link to="https://github.com/orgs/UHM-SCADA-Lab/projects/6" target="_blank" rel="noreferrer">ML Curricula</Link></td>
             </tr>
             <tr>
-              <td><a href="https://github.com/orgs/UHM-SCADA-Lab/projects/2" target="_blank" rel="noreferrer">System Admin</a></td>
-              <td><a href="https://github.com/orgs/UHM-SCADA-Lab/projects/7" target="_blank" rel="noreferrer">HCI</a></td>
+              <td><Link to="https://github.com/orgs/UHM-SCADA-Lab/projects/2" target="_blank" rel="noreferrer">System Admin</Link></td>
+              <td><Link to="https://github.com/orgs/UHM-SCADA-Lab/projects/7" target="_blank" rel="noreferrer">HCI</Link></td>
             </tr>
             <tr>
-              <td><a href="https://github.com/orgs/UHM-SCADA-Lab/projects/1" target="_blank" rel="noreferrer">Knowledge Management</a></td>
-              <td><a href="https://github.com/orgs/UHM-SCADA-Lab/projects/8" target="_blank" rel="noreferrer">Database</a></td>
+              <td><Link to="https://github.com/orgs/UHM-SCADA-Lab/projects/1" target="_blank" rel="noreferrer">Knowledge Management</Link></td>
+              <td><Link to="https://github.com/orgs/UHM-SCADA-Lab/projects/8" target="_blank" rel="noreferrer">Database</Link></td>
             </tr>
             <tr>
-              <td><a href="https://github.com/orgs/UHM-SCADA-Lab/projects/4" target="_blank" rel="noreferrer">SNMP/NOC</a></td>
-              <td><a href="https://github.com/orgs/UHM-SCADA-Lab/projects/9" target="_blank" rel="noreferrer">Red Team/SEL</a></td>
+              <td><Link to="https://github.com/orgs/UHM-SCADA-Lab/projects/4" target="_blank" rel="noreferrer">SNMP/NOC</Link></td>
+              <td><Link to="https://github.com/orgs/UHM-SCADA-Lab/projects/9" target="_blank" rel="noreferrer">Red Team/SEL</Link></td>
             </tr>
             <tr>
-              <td><a href="https://github.com/orgs/UHM-SCADA-Lab/projects/5" target="_blank" rel="noreferrer">sFlow & SDN</a></td>
-              <td><a href="https://github.com/orgs/UHM-SCADA-Lab/projects/10" target="_blank" rel="noreferrer">Logstash</a></td>
+              <td><Link to="https://github.com/orgs/UHM-SCADA-Lab/projects/5" target="_blank" rel="noreferrer">sFlow & SDN</Link></td>
+              <td><Link to="https://github.com/orgs/UHM-SCADA-Lab/projects/10" target="_blank" rel="noreferrer">Logstash</Link></td>
             </tr>
           </tbody>
         </Table>

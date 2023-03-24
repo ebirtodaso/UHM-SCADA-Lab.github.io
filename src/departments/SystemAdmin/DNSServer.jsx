@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const DNSServer = () => (
   <span>
@@ -30,10 +31,10 @@ const DNSServer = () => (
       <li>Restart the rndc and run &apos;sudo rndc reload&apos;</li>
       <li>Check the DNS server is running properly</li>
       <li>
-        <a href="https://serverspace.io/support/help/bind9-as-a-primary-dns-server-on-ubuntu/">Tutorial to Configure Bind9 as Primary Server</a>
+        <Link to="https://serverspace.io/support/help/bind9-as-a-primary-dns-server-on-ubuntu/">Tutorial to Configure Bind9 as Primary Server</Link>
       </li>
       <li>
-        <a href="https://wiki.debian.org/Bind9#Introduction">Tutorial on Bind9</a>
+        <Link to="https://wiki.debian.org/Bind9#Introduction">Tutorial on Bind9</Link>
       </li>
     </ol>
   </span>

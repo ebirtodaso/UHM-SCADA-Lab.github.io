@@ -1,5 +1,6 @@
 import React from 'react';
 import { Col, Row, Table } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import Troubleshooting from './Troubleshooting';
 
 const Overview = () => (
@@ -8,11 +9,11 @@ const Overview = () => (
     <h5>Check connections/ports using nmap (also alt to ssh using port 414: https)</h5>
     <ul>
       <li><Troubleshooting /></li>
-      <li><a href="https://nmap.org/download.html" target="_blank" rel="noreferrer">NMAP Website</a></li>
+      <li><Link to="https://nmap.org/download.html" target="_blank" rel="noreferrer">NMAP Website</Link></li>
     </ul>
     <h5>If port 22 displays use putty for windows or use terminal on mac to SSH (ssh 10.1.1.31)</h5>
     <ul>
-      <li><a href="https://www.putty.org/" target="_blank" rel="noreferrer">PuTTY Website</a></li>
+      <li><Link to="https://www.putty.org/" target="_blank" rel="noreferrer">PuTTY Website</Link></li>
     </ul>
     <h3>SEL 3505 Configuration</h3>
     <p>Once the 3505 is connected and firmware is installed, navigate to 10.1.1.31 This will direct you to the login page from SEL Inc.</p>

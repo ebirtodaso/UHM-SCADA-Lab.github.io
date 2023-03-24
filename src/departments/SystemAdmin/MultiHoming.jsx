@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Container } from 'react-bootstrap';
 
 const MultiHoming = () => (
@@ -24,7 +25,7 @@ const MultiHoming = () => (
         </ul>
         <li>Restart the networking service using &apos;sudo systemctl restart networking&apos;</li>
         <li>
-          <a href="https://engineerworkshop.com/blog/raspberry-pi-vlan-how-to-connect-your-rpi-to-multiple-networks/">Tutorial to Connect Pi to Multiple Networks</a>
+          <Link to="https://engineerworkshop.com/blog/raspberry-pi-vlan-how-to-connect-your-rpi-to-multiple-networks/">Tutorial to Connect Pi to Multiple Networks</Link>
         </li>
       </ol>
     </Container>

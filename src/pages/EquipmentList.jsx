@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Container, Table } from 'react-bootstrap';
 
 const EquipmentList = () => (
@@ -30,7 +31,7 @@ const EquipmentList = () => (
       <tbody>
         <tr>
           <td>entraNET Access Point</td>
-          <td><a href="/" className="link-secondary">More Information</a></td>
+          <td><Link to="/" className="link-secondary">More Information</Link></td>
           <td>HQ</td>
           <td>6-30V</td>
           <td />
@@ -50,7 +51,7 @@ const EquipmentList = () => (
         </tr>
         <tr>
           <td>Mean Well PS</td>
-          <td><a href="/" className="link-secondary">More Information</a></td>
+          <td><Link to="/" className="link-secondary">More Information</Link></td>
           <td>HQ & SUB</td>
           <td />
           <td />
@@ -70,7 +71,7 @@ const EquipmentList = () => (
         </tr>
         <tr>
           <td>entraNET Serial Remote</td>
-          <td><a href="/" className="link-secondary">More Information</a></td>
+          <td><Link to="/" className="link-secondary">More Information</Link></td>
           <td>SUB</td>
           <td>6-30V</td>
           <td />
@@ -90,7 +91,7 @@ const EquipmentList = () => (
         </tr>
         <tr>
           <td>entraNET Dual Remote</td>
-          <td><a href="/" className="link-secondary">More Information</a></td>
+          <td><Link to="/" className="link-secondary">More Information</Link></td>
           <td>SUB</td>
           <td>6-30V</td>
           <td />
@@ -110,7 +111,7 @@ const EquipmentList = () => (
         </tr>
         <tr>
           <td>SEL 3505</td>
-          <td><a href="/" className="link-secondary">More Information</a></td>
+          <td><Link to="/" className="link-secondary">More Information</Link></td>
           <td>SUB</td>
           <td>12-24V</td>
           <td />
@@ -130,7 +131,7 @@ const EquipmentList = () => (
         </tr>
         <tr>
           <td>SEL 311</td>
-          <td><a href="/" className="link-secondary">More Information</a></td>
+          <td><Link to="/" className="link-secondary">More Information</Link></td>
           <td>SUB</td>
           <td>24-250V</td>
           <td>x</td>
@@ -150,7 +151,7 @@ const EquipmentList = () => (
         </tr>
         <tr>
           <td>SEL 451</td>
-          <td><a href="/" className="link-secondary">More Information</a></td>
+          <td><Link to="/" className="link-secondary">More Information</Link></td>
           <td>SUB</td>
           <td>110-120V</td>
           <td>x</td>
@@ -170,7 +171,7 @@ const EquipmentList = () => (
         </tr>
         <tr>
           <td>Direct Logic 205 Koyo</td>
-          <td><a href="/" className="link-secondary">More Information</a></td>
+          <td><Link to="/" className="link-secondary">More Information</Link></td>
           <td>SUB</td>
           <td>100-240V</td>
           <td>x</td>
@@ -190,7 +191,7 @@ const EquipmentList = () => (
         </tr>
         <tr>
           <td>H2-DM1E</td>
-          <td><a href="/" className="link-secondary">More Information</a></td>
+          <td><Link to="/" className="link-secondary">More Information</Link></td>
           <td>SUB</td>
           <td>24V</td>
           <td />
@@ -210,7 +211,7 @@ const EquipmentList = () => (
         </tr>
         <tr>
           <td>D2-16ND3-2</td>
-          <td><a href="/" className="link-secondary">More Information</a></td>
+          <td><Link to="/" className="link-secondary">More Information</Link></td>
           <td>SUB</td>
           <td>24V</td>
           <td />
@@ -230,7 +231,7 @@ const EquipmentList = () => (
         </tr>
         <tr>
           <td>F2-16TD2p</td>
-          <td><a href="/" className="link-secondary">More Information</a></td>
+          <td><Link to="/" className="link-secondary">More Information</Link></td>
           <td>SUB</td>
           <td>24V</td>
           <td />
@@ -250,7 +251,7 @@ const EquipmentList = () => (
         </tr>
         <tr>
           <td>SEL 2740S</td>
-          <td><a href="/" className="link-secondary">More Information</a></td>
+          <td><Link to="/" className="link-secondary">More Information</Link></td>
           <td>HQ</td>
           <td />
           <td />

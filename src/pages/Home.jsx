@@ -1,5 +1,6 @@
 import React from 'react';
 import { Carousel, Col, Container, Row, Table } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const Home = () => (
   <Container className="py-3">
@@ -43,23 +44,23 @@ const Home = () => (
           </thead>
           <tbody>
             <tr>
-              <td><a href="/network">Network</a></td>
+              <td><Link to="/network">Network</Link></td>
               <td>Configure the network, maintain network equipment</td>
             </tr>
             <tr>
-              <td><a href="/systemAdmin">System Admin</a></td>
+              <td><Link to="/systemAdmin">System Admin</Link></td>
               <td>Program and maintain Raspberry Pis</td>
             </tr>
             <tr>
-              <td><a href="/knowledgeManagement">Knowledge Management</a></td>
+              <td><Link to="/knowledgeManagement">Knowledge Management</Link></td>
               <td>Maintain the website, write procedures for lab members</td>
             </tr>
             <tr>
-              <td><a href="/snmp-noc">SNMP/NOC</a></td>
+              <td><Link to="/snmp-noc">SNMP/NOC</Link></td>
               <td>Under Construction</td>
             </tr>
             <tr>
-              <td><a href="/sFlow-SDN">sFlow & SDN</a></td>
+              <td><Link to="/sFlow-SDN">sFlow & SDN</Link></td>
               <td>Under Construction</td>
             </tr>
           </tbody>
@@ -74,23 +75,23 @@ const Home = () => (
           </thead>
           <tbody>
             <tr>
-              <td><a href="/mlCurriculum">ML Curriculum</a></td>
+              <td><Link to="/mlCurriculum">ML Curriculum</Link></td>
               <td>Research and implement a machine learning algorithm to make risk-based decision for the SDN controller.</td>
             </tr>
             <tr>
-              <td><a href="/hci">HCI</a></td>
+              <td><Link to="/hci">HCI</Link></td>
               <td>Under Construction</td>
             </tr>
             <tr>
-              <td><a href="/database">Database</a></td>
+              <td><Link to="/database">Database</Link></td>
               <td>Under Construction</td>
             </tr>
             <tr>
-              <td><a href="/redTeam-SEL">Red Team/SEL</a></td>
+              <td><Link to="/redTeam-SEL">Red Team/SEL</Link></td>
               <td>Research and operate SEL switching devices, connect and exchange communication within SEL devices</td>
             </tr>
             <tr>
-              <td><a href="/logStash">Log Stash</a></td>
+              <td><Link to="/logStash">Log Stash</Link></td>
               <td>Under Construction</td>
             </tr>
           </tbody>
@@ -105,7 +106,7 @@ const Home = () => (
           </thead>
           <tbody>
             <tr>
-              <td><a href="/rf">Radio Frequency</a></td>
+              <td><Link to="/rf">Radio Frequency</Link></td>
               <td>Establish and maintain RF communication between buildings</td>
             </tr>
           </tbody>

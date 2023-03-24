@@ -21,7 +21,7 @@ const PiAPI = () => {
           <ul>
             <li>The GPIO pins use a voltage of 3.3VDC for both input and output.</li>
             <li>
-              <a href="https://www.youtube.com/watch?v=NAl-ULEattw">Tutorial Followed</a>
+              <Link to="https://www.youtube.com/watch?v=NAl-ULEattw">Tutorial Followed</Link>
             </li>
             <li>
               <a href="/pdfs/PiAPI_exampleGPIO.pdf">Example wiring (modified from video tutorial)</a>
@@ -32,7 +32,7 @@ const PiAPI = () => {
           </ul>
           <h3>Light Sensor</h3>
           <ul>
-            <li><a href="https://www.amazon.com/dp/B07TGKNDRB/ref=cm_sw_em_r_mt_dp_5YMB0WM1V7T660K93SKN">Light Sensor w/ Relay on Amazon</a></li>
+            <li><Link to="https://www.amazon.com/dp/B07TGKNDRB/ref=cm_sw_em_r_mt_dp_5YMB0WM1V7T660K93SKN">Light Sensor w/ Relay on Amazon</Link></li>
             <li><a href="/pdfs/PiAPI_lightsensorwiring.pdf">Wiring Diagram and Picture</a></li>
             <li>Potentiometer currently set at about 0.6 (0 to 1 range)</li>
             <li>There is a python program on Raspberry PI-07 (the attached PI) named &quot;LightSensor.py&quot; used to test with current setup</li>
@@ -41,7 +41,7 @@ const PiAPI = () => {
           <ul>
             <li>The idea to connect the light sensor to the SDN controller.</li>
             <li>A RESTful api is basically just a web server with an API (application programming interface) where you can put data to it and get data from it.</li>
-            <li>We followed this <a href="https://www.youtube.com/watch?v=GMppyAPbLYk">video</a>. Only up until minute 26:49 is needed.</li>
+            <li>We followed this <Link to="https://www.youtube.com/watch?v=GMppyAPbLYk">video</Link>. Only up until minute 26:49 is needed.</li>
             <li>An example to set up a REST api that can only respond to get requests is shown below.</li>
           </ul>
           <Row className="justify-content-center">

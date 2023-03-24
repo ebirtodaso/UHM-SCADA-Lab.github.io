@@ -19,7 +19,7 @@ const LaunchingCommands = () => {
         <Offcanvas.Body>
           <h3>Using systemd</h3>
           <ul>
-            <li>Followed this <a href="https://www.golinuxcloud.com/run-script-at-startup-boot-without-cron-linux/">tutorial</a> and this <a href="https://stackoverflow.com/questions/35641414/python-import-of-local-module-failing-when-run-as-systemd-systemctl-service">stack overflow question.</a></li>
+            <li>Followed this <Link to="https://www.golinuxcloud.com/run-script-at-startup-boot-without-cron-linux/">tutorial</Link> and this <Link to="https://stackoverflow.com/questions/35641414/python-import-of-local-module-failing-when-run-as-systemd-systemctl-service">stack overflow question.</Link></li>
             <li>Instructions:</li>
             <li>Create a .sh script. Example shown below is located at ~/startup_script.sh and launches two python programs:</li>
           </ul>
@@ -72,7 +72,7 @@ WantedBy=default.target`}
           <ul>
             <li>This kinda works, but isn&apos;t as applicable as using systemd as shown above. This is an outdated method.</li>
             <li>Fails as you cannot control when the program runs, (runs before dependencies)</li>
-            <li>Followed <a href="https://learn.sparkfun.com/tutorials/how-to-run-a-raspberry-pi-program-on-startup#method-1-rclocal">this tutorial, method 1 (rc.local)</a></li>
+            <li>Followed <Link to="https://learn.sparkfun.com/tutorials/how-to-run-a-raspberry-pi-program-on-startup#method-1-rclocal">this tutorial, method 1 (rc.local)</Link></li>
             <li>Instructions:</li>
             <ol>
               <li>Edit the file rc.local: $ sudo vim /etc/rc.local</li>

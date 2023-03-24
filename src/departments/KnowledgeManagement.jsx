@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Col, Container, Row } from 'react-bootstrap';
 
 const KnowledgeManagement = () => (
@@ -8,14 +9,14 @@ const KnowledgeManagement = () => (
     <h3>Development Tools</h3>
     <p>These are the standard development tools utilized by our team to develop the website.</p>
     <ul>
-      <li><a href="https://www.jetbrains.com/idea/download/">IntelliJ IDEA</a>: Integrated Development Environment (IDE)</li>
-      <li><a href="https://desktop.github.com/">Github Desktop</a>: Simplifies Git development workflow</li>
+      <li><Link to="https://www.jetbrains.com/idea/download/">IntelliJ IDEA</Link>: Integrated Development Environment (IDE)</li>
+      <li><Link to="https://desktop.github.com/">Github Desktop</Link>: Simplifies Git development workflow</li>
     </ul>
     <h3>Additional Resources</h3>
     <ul>
-      <li><a href="https://react-bootstrap.netlify.app">React Bootstrap Documentation</a></li>
-      <li><a href="https://www.freecodecamp.org/learn/responsive-web-design/#basic-html-and-html5">freeCodeCamp HTML/CSS Tutorials</a></li>
-      <li><a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#basic-javascript">freeCodeCamp JavaScript Tutorials</a></li>
+      <li><Link to="https://react-bootstrap.netlify.app">React Bootstrap Documentation</Link></li>
+      <li><Link to="https://www.freecodecamp.org/learn/responsive-web-design/#basic-html-and-html5">freeCodeCamp HTML/CSS Tutorials</Link></li>
+      <li><Link to="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#basic-javascript">freeCodeCamp JavaScript Tutorials</Link></li>
     </ul>
     <h3 className="pt-3">Updating a Fork</h3>
     <p>To ensure that your fork is up to date, click <em>Sync fork</em> on your fork&apos;s Github page to retrieve any changes from the main repo to your fork.</p>
@@ -78,8 +79,8 @@ export default App;
     <p>
       You can then direct users to this page through a link:
     </p>
-    <pre>{'   <a href="/PATH">Link to Page</a>'}</pre>
-    <p>which will appear as <a href="/PATH">Link to Page</a>.</p>
+    <pre>{'   <Link to="/PATH">Link to Page</Link>'}</pre>
+    <p>which will appear as <Link to="/PATH">Link to Page</Link>.</p>
     <h3>React Bootstrap Tips</h3>
     <p>Important note: Borders and titles are added for visualization purposes.</p>
     <h4>Grid Layout</h4>

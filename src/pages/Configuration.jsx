@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Col, Container, Row, Table } from 'react-bootstrap';
 
 const Configuration = () => (
@@ -31,25 +32,25 @@ const Configuration = () => (
     <p>Please click the links below for the configuration of each device.</p>
     <ul>
       <h3>Local (Holmes 450)</h3>
-      <li><a href="/">entraNET Access Point</a></li>
-      <li><a href="/">MeanWell PS</a></li>
-      <li><a href="/">Raspberry PIs</a></li>
+      <li><Link to="/">entraNET Access Point</Link></li>
+      <li><Link to="/">MeanWell PS</Link></li>
+      <li><Link to="/">Raspberry PIs</Link></li>
     </ul>
     <ul>
       <h3>Remote (ITC Datacenter)</h3>
-      <li><a href="/">entraNET Serial Remote</a></li>
-      <li><a href="/">NovaTech OrionLXm</a></li>
-      <li><a href="/">SEL 3505</a></li>
-      <li><a href="/">SEL 311</a></li>
-      <li><a href="/">SEL 451</a></li>
-      <li><a href="/">Direct Logic 205 Koyo</a></li>
+      <li><Link to="/">entraNET Serial Remote</Link></li>
+      <li><Link to="/">NovaTech OrionLXm</Link></li>
+      <li><Link to="/">SEL 3505</Link></li>
+      <li><Link to="/">SEL 311</Link></li>
+      <li><Link to="/">SEL 451</Link></li>
+      <li><Link to="/">Direct Logic 205 Koyo</Link></li>
       <ul>
-        <li><a href="/">H2-DM1E</a></li>
-        <li><a href="/">D2-16ND3-2</a></li>
-        <li><a href="/">F2-16TD2p</a></li>
+        <li><Link to="/">H2-DM1E</Link></li>
+        <li><Link to="/">D2-16ND3-2</Link></li>
+        <li><Link to="/">F2-16TD2p</Link></li>
       </ul>
-      <li><a href="/">Mean Well PS</a></li>
-      <li><a href="/">SCADA Cam</a></li>
+      <li><Link to="/">Mean Well PS</Link></li>
+      <li><Link to="/">SCADA Cam</Link></li>
     </ul>
   </Container>
 );

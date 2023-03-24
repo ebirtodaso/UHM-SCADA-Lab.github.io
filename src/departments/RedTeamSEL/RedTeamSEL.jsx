@@ -1,5 +1,6 @@
 import React from 'react';
 import { Col, Container, Row, Tab, Table, Tabs } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import Overview from './Overview';
 import SEL451Config from './SEL451Config';
 import SEL311BConfig from './SEL311BConfig';
@@ -23,19 +24,19 @@ const RedTeamSEL = () => (
           <tbody>
             <tr>
               <td>RTAC SEL-3505</td>
-              <td><a href="https://laulima.hawaii.edu/access/content/group/MAN.XLSEEX96mn.202310/Manuals/RTAC%20SEL-3505/RTA%20SEL-3505%20Manual.pdf">Manual</a></td>
+              <td><Link to="https://laulima.hawaii.edu/access/content/group/MAN.XLSEEX96mn.202310/Manuals/RTAC%20SEL-3505/RTA%20SEL-3505%20Manual.pdf">Manual</Link></td>
             </tr>
             <tr>
               <td>SEL-451</td>
-              <td><a href="https://laulima.hawaii.edu/access/content/group/MAN.XLSEEX96mn.202310/Manuals/SEL%20-%20451/SEL%20-%20451%20Factory%20Reset/sel451%20manual.pdf">Manual</a></td>
+              <td><Link to="https://laulima.hawaii.edu/access/content/group/MAN.XLSEEX96mn.202310/Manuals/SEL%20-%20451/SEL%20-%20451%20Factory%20Reset/sel451%20manual.pdf">Manual</Link></td>
             </tr>
             <tr>
               <td>SEL 311B</td>
-              <td><a href="https://laulima.hawaii.edu/access/content/group/MAN.XLSEEX96mn.202310/Manuals/SEL-311%20B/311B%20Instruction%20Manual.pdf">Manual</a></td>
+              <td><Link to="https://laulima.hawaii.edu/access/content/group/MAN.XLSEEX96mn.202310/Manuals/SEL-311%20B/311B%20Instruction%20Manual.pdf">Manual</Link></td>
             </tr>
             <tr>
               <td>DL 205</td>
-              <td><a href="https://laulima.hawaii.edu/access/content/group/MAN.XLSEEX96mn.202310/Manuals/Direct%20Logic%20205%20Koyo/DL205%20Manual.pdf">Manual</a></td>
+              <td><Link to="https://laulima.hawaii.edu/access/content/group/MAN.XLSEEX96mn.202310/Manuals/Direct%20Logic%20205%20Koyo/DL205%20Manual.pdf">Manual</Link></td>
             </tr>
           </tbody>
         </Table>

@@ -46,9 +46,9 @@ const DXE402 = () => {
           </Table>
           <h3>Device Links</h3>
           <ul>
-            <li><a href="https://www.dynexproducts.com/" target="_blank" rel="noreferrer">Manufacturer&apos;s Website</a></li>
-            <li><a href="https://www.dynexproducts.com/pdp/DX-E402/8339283" target="_blank" rel="noreferrer">Product</a></li>
-            <li><a href="https://www.192-168-1-1-ip.co/manuals/10040.pdf" target="_blank" rel="noreferrer">Manual</a></li>
+            <li><Link to="https://www.dynexproducts.com/" target="_blank" rel="noreferrer">Manufacturer&apos;s Website</Link></li>
+            <li><Link to="https://www.dynexproducts.com/pdp/DX-E402/8339283" target="_blank" rel="noreferrer">Product</Link></li>
+            <li><Link to="https://www.192-168-1-1-ip.co/manuals/10040.pdf" target="_blank" rel="noreferrer">Manual</Link></li>
           </ul>
         </Offcanvas.Body>
       </Offcanvas>

@@ -26,7 +26,7 @@ const SDNSetup = () => {
           </ul>
           <h3 className="pt-4">Instructions</h3>
           <ol>
-            <li>Download the <a href="https://www.raspberrypi.com/software/">Imager</a> for your Pi. Make sure you choose the appropriate one for your operating system.</li>
+            <li>Download the <Link to="https://www.raspberrypi.com/software/">Imager</Link> for your Pi. Make sure you choose the appropriate one for your operating system.</li>
             <li>Install and run the application.</li>
             <li>Choose the Operating system based on the SDN controllers supported OS&apos;s</li>
             <li>Insert the micro SD into the micro SD to USB adapter and plug it into your computer.</li>

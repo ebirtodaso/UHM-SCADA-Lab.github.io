@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Badge, Col, Container, Row } from 'react-bootstrap';
 
 const Legacy = () => (
@@ -9,10 +10,10 @@ const Legacy = () => (
     </p>
     <Row>
       <Col className="text-center py-4">
-        <a href="/rf">
+        <Link to="/rf">
           <img src="/images/Departments/RF.png" alt="RF Department" />
           <h1><Badge bg="secondary">Radio Frequency</Badge></h1>
-        </a>
+        </Link>
       </Col>
     </Row>
   </Container>

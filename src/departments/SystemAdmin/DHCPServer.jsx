@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const DHCPServer = () => (
   <span>
@@ -21,7 +22,7 @@ const DHCPServer = () => (
         <img src="/images/SystemAdmin/DHCPServer_dhcpd.png" alt="DHCP Server" style={{ width: '100%', maxWidth: '375px' }} />
       </ul>
       <li>
-        <a href="https://wiki.debian.org/DHCP_Server">Tutorial to Setup DHCP Server</a>
+        <Link to="https://wiki.debian.org/DHCP_Server">Tutorial to Setup DHCP Server</Link>
       </li>
     </ol>
     <h3>DHCP Fixed Addressing</h3>
