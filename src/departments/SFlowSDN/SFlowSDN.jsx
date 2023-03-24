@@ -165,8 +165,8 @@ const SFlowSDN = () => (
             We only need to add functions to parse, in order of priority, TCP, ICMPv6, and ARP headers.
             Mark said we don&apos;t need too much information from ICMP. He wants our parser to say that there
             is an ICMP header. So anytime there is an ICMP header, the parser will just print that ICMP
-            was detected. We use Wireshark as a reference for our code(&quot;blob(1).pcap&quot; -&gt; line 23 for ARP,
-            &quot;blob.pcap&quot; -&gt; line 11 for ICMPv6, and &quot;blob.pcap&quot; -&gt; line 23 for TCP).
+            was detected. We use Wireshark as a reference for our code(&quot;blob(1).pcap&quot; -&gt; frame 23 for ARP,
+            &quot;blob.pcap&quot; -&gt; frame 11 for ICMPv6, and &quot;blob.pcap&quot; -&gt; frame 23 for TCP).
           </td>
           <td>2/16/2023</td>
         </tr>
