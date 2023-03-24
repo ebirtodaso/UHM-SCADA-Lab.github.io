@@ -7,6 +7,7 @@ import SEL311BConfig from './SEL311BConfig';
 import SELSetup from './SELSetup';
 import WiringDiagram from './WiringDiagram';
 import OutputTesting from './OutputTesting';
+import NmapScan from './NmapScan';
 
 const RedTeamSEL = () => (
   <Container className="py-3">
@@ -72,6 +73,9 @@ const RedTeamSEL = () => (
       </Tab>
       <Tab eventKey="outputTesting" title="Output Testing" className="py-4">
         <OutputTesting />
+      </Tab>
+      <Tab eventKey="nmapScan" title="Nmap Scan" className="py-4">
+        <NmapScan />
       </Tab>
     </Tabs>
   </Container>
