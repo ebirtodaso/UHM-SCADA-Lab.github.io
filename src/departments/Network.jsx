@@ -46,10 +46,10 @@ const Network = () => (
       <li>Works with SCADA-2.4G and SCADA-5G</li>
     </ul>
     <h3>Important Links</h3>
+    <p><em>Only accounts with UH Emails may access!</em></p>
     <ul>
-      <li>Only accounts with UH Emails may access</li>
       <li>
-        <Link to="https://docs.google.com/drawings/d/1Jd3nHqqYbsNkVwAQvhZ5zCrwgf0yuxxAtxjIsT0l_fY/edit">Network Map</Link>
+        <Link to="https://docs.google.com/drawings/d/19wWE4QDeSVR99fB084llob70Xo4fzYEeT_ArZQRVDYU/edit?usp=sharing">Network Map</Link>
       </li>
       <li>
         <Link to="https://docs.google.com/spreadsheets/d/1fkD1ihLW496p8tQhlRT4OwzG7a3ZOo4inUt4FP8itMg/edit#gid=0">Switch Ports/IPs/VLANs</Link>

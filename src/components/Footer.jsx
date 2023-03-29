@@ -1,6 +1,6 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import { Discord, Github, Linkedin } from 'react-bootstrap-icons';
+import { Github, HouseFill } from 'react-bootstrap-icons';
 import { Link } from 'react-router-dom';
 
 /* The Footer appears at the bottom of every page. Rendered by the App Layout component. */
@@ -24,9 +24,8 @@ const Footer = () => (
         </Col>
         <Col className="text-white">
           SCADA Lab 2023 <hr />
-          <Link className="footer-link" to="https://github.com/UHM-SCADA-Lab/UHM-SCADA-Lab.github.io"><Github /></Link>
-          <Link className="footer-link" to="https://discord.gg/ptPvf9etBh"><Discord /></Link>
-          <Link className="footer-link" to="https://www.linkedin.com/"><Linkedin /></Link>
+          <Link className="footer-link" to="https://uhm-scada-lab.github.io/"><HouseFill /></Link>
+          <Link className="footer-link" to="https://github.com/UHM-SCADA-Lab/"><Github /></Link>
         </Col>
       </Row>
     </Container>
