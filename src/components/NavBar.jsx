@@ -36,7 +36,7 @@ const NavBar = () => (
             <NavDropdown.Item href="/#/hci">HCI</NavDropdown.Item>
             <NavDropdown.Item href="/#/database">Database</NavDropdown.Item>
             <NavDropdown.Item href="/#/redTeam-SEL">Red Team/SEL</NavDropdown.Item>
-            <NavDropdown.Item href="/#/logStash">Log Stash</NavDropdown.Item>
+            <NavDropdown.Item href="/#/logStash">Logstash</NavDropdown.Item>
             <NavDropdown.Divider />
             <NavDropdown.Item href="/#/departments">All Departments</NavDropdown.Item>
           </NavDropdown>

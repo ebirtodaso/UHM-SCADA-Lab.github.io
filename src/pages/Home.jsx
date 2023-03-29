@@ -91,7 +91,7 @@ const Home = () => (
               <td>Research and operate SEL switching devices, connect and exchange communication within SEL devices</td>
             </tr>
             <tr>
-              <td><Link to="/logStash">Log Stash</Link></td>
+              <td><Link to="/logStash">Logstash</Link></td>
               <td>Under Construction</td>
             </tr>
           </tbody>

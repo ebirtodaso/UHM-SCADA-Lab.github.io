@@ -49,15 +49,15 @@ const Network = () => (
     <p><em>Only accounts with UH Emails may access!</em></p>
     <ul>
       <li>
-        <Link to="https://docs.google.com/drawings/d/19wWE4QDeSVR99fB084llob70Xo4fzYEeT_ArZQRVDYU/edit?usp=sharing">Network Map</Link>
+        <Link to="https://docs.google.com/drawings/d/19wWE4QDeSVR99fB084llob70Xo4fzYEeT_ArZQRVDYU/edit?usp=sharing" target="_blank">Network Map</Link>
       </li>
       <li>
-        <Link to="https://docs.google.com/spreadsheets/d/1fkD1ihLW496p8tQhlRT4OwzG7a3ZOo4inUt4FP8itMg/edit#gid=0">Switch Ports/IPs/VLANs</Link>
+        <Link to="https://docs.google.com/spreadsheets/d/1fkD1ihLW496p8tQhlRT4OwzG7a3ZOo4inUt4FP8itMg/edit#gid=0" target="_blank">Switch Ports/IPs/VLANs</Link>
       </li>
     </ul>
     <h3>Mininet</h3>
     <ul>
-      <li>SCADA Lab topography for <Link to="https://github.com/wbader/SCADA-Lab/blob/main/topo-SCADA-Lab.py">mininet</Link> based on the Network Map as of 3/31/22</li>
+      <li>SCADA Lab topography for <Link to="https://github.com/wbader/SCADA-Lab/blob/main/topo-SCADA-Lab.py" target="_blank">mininet</Link> based on the Network Map as of 3/31/22</li>
     </ul>
   </Container>
 );

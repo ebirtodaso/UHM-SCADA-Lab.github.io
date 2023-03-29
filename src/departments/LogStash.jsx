@@ -3,7 +3,7 @@ import { Container } from 'react-bootstrap';
 
 const LogStash = () => (
   <Container className="py-3">
-    <h1>Log Stash</h1>
+    <h1>Logstash</h1>
   </Container>
 );
 
