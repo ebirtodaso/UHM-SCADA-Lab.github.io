@@ -12,6 +12,11 @@ const KnowledgeManagement = () => (
       <li><Link to="https://www.jetbrains.com/idea/download/">IntelliJ IDEA</Link>: Integrated Development Environment (IDE)</li>
       <li><Link to="https://desktop.github.com/">Github Desktop</Link>: Simplifies Git development workflow</li>
     </ul>
+    <h3>Development Environment Setup</h3>
+    <ul>
+      <li><a href="/pdfs/InstallationGuide.pdf" target="_blank">Installation Guide</a>: Instructions for how to install and configure Intellij IDEA and Github Desktop</li>
+      <li><a href="/pdfs/DeveloperGuide.pdf" target="_blank">Developer Guide</a>: Instructions for how to create a fork of the website repository and update the website</li>
+    </ul>
     <h3>Additional Resources</h3>
     <ul>
       <li><Link to="https://react-bootstrap.netlify.app">React Bootstrap Documentation</Link></li>

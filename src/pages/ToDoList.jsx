@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const ToDoList = () => (
   <Container className="py-3">
     <h1>To-Do List (archive)</h1>
-    <p><strong>This page is not currently maintained. View the <Link to="https://uhm-scada-lab.github.io/#/tasking">Tasking</Link> page to view the most up-to-date tasks for each department.</strong></p>
+    <p><strong>This page is not currently maintained. View the <Link to="/tasking">Tasking</Link> page to view the most up-to-date tasks for each department.</strong></p>
     <p>
       This page is for monitoring and prioritizing tasks for our SCADA system. Please use dates, either when the task should be finished, or when the task was started. Please try and keep this up-to-date as much as possible.
     </p>
