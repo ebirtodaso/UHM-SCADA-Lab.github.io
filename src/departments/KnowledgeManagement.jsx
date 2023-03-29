@@ -33,7 +33,7 @@ const KnowledgeManagement = () => (
     <p>Once you have verified that your fork and local copy are up to date, you can begin making edits. To add a new page to the website, create a new file <code>FILENAME.jsx</code> and store it in the appropriate directory. For example,
       this page is found in the <code>KnowledgeManagement.jsx</code> file in the <code>src/departments/</code> directory.
     </p>
-    <p>To ensure consistent formatting across the entire website, each page should having the following template:</p>
+    <p>To ensure consistent formatting across the entire website, each page should have the following template:</p>
     <Row className="justify-content-center pb-3">
       <Col lg={4} className="border border-secondary">
         <pre>
